@@ -1,0 +1,166 @@
+/**
+ * Include your custom JavaScript here.
+ *
+ * We also offer some hooks so you can plug your own logic. For instance, if you want to be notified when the variant
+ * changes on product page, you can attach a listener to the document:
+ *
+ * document.addEventListener('variant:changed', function(event) {
+ *   var variant = event.detail.variant; // Gives you access to the whole variant details
+ * });
+ *
+ * You can also add a listener whenever a product is added to the cart:
+ *
+ * document.addEventListener('product:added', function(event) {
+ *   var variant = event.detail.variant; // Get the variant that was added
+ *   var quantity = event.detail.quantity; // Get the quantity that was added
+ * });
+ */
+
+(function() {
+    let touchingCarousel = false,
+      touchStartCoords;
+
+    document.body.addEventListener('touchstart', function(e) {
+      if (e.target.closest('.flickity-slider')) {
+        touchingCarousel = true;
+      } else {
+        touchingCarousel = false;
+        return;
+      }
+
+      touchStartCoords = {
+        x: e.touches[0].pageX,
+        y: e.touches[0].pageY
+      }
+    });
+
+    document.body.addEventListener('touchmove', function(e) {
+      if (!(touchingCarousel && e.cancelable)) {
+        return;
+      }
+
+      let moveVector = {
+        x: e.touches[0].pageX - touchStartCoords.x,
+        y: e.touches[0].pageY - touchStartCoords.y
+      };
+
+      if (Math.abs(moveVector.x) > 7)
+        e.preventDefault()
+
+    }, {passive: false});
+  
+/*  
+  
+  if(document.querySelector("body").classList.contains("pagetype-index") && !getCookie("splashscreen")) {
+     document.cookie = "splashscreen=1"; 
+  if(window.innerWidth < 768) {
+     document.getElementById('splashscreen').style.backgroundImage = "url('{{ 'splash_portrait_3.jpg' | asset_url }}')"; 
+     document.getElementById('splashvideo_p').style.visibility = 'visible';
+     document.getElementById('splashvideo').style.visibility = 'hidden';
+  } else {
+     document.getElementById('splashscreen').style.backgroundImage = "url('{{ 'splash_1.jpg' | asset_url }}')";
+     document.getElementById('splashvideo').style.visibility = 'visible';
+	 document.getElementById('splashvideo_p').style.visibility = 'hidden';
+  }
+//  	 document.getElementById('splashscreen').style.backgroundSize = "cover";
+    document.getElementById('splashscreen').style.zIndex = "100000";
+//  document.getElementById('splashscreen').style.backgroundPosition = "center";
+	 document.getElementById('splashscreen').style.visibility = 'visible';
+  	 document.getElementById('splashscreen').style.opacity = 1;
+    
+      document.getElementById('splashscreen').addEventListener('click',function(e) {
+         document.getElementById('splashscreen').style.visibility = 'hidden';
+         document.getElementById('splashscreen').style.opacity = 0;
+        document.getElementById('splashscreen').style.zIndex = "auto";
+        document.getElementById('splashscreen').style.display = "none";
+     document.getElementById('splashvideo').style.display = "none";
+	 document.getElementById('splashvideo_p').style.display = "none";
+      });
+
+  
+      setTimeout(function() {
+         document.getElementById('splashscreen').style.visibility = 'hidden';
+         document.getElementById('splashscreen').style.opacity = 0;
+        document.getElementById('splashscreen').style.zIndex = "auto";
+        document.getElementById('splashscreen').style.display = "none";
+     document.getElementById('splashvideo').style.display = "none";
+	 document.getElementById('splashvideo_p').style.display = "none";
+      },7000);
+  }
+
+*/
+
+ function getCookie(cname) {
+  let name = cname + "=";
+  let decodedCookie = decodeURIComponent(document.cookie);
+  let ca = decodedCookie.split(';');
+  for(let i = 0; i <ca.length; i++) {
+    let c = ca[i];
+    while (c.charAt(0) == ' ') {
+      c = c.substring(1);
+    }
+    if (c.indexOf(name) == 0) {
+      return c.substring(name.length, c.length);
+    }
+  }
+  return "";
+}
+  
+  var el = document.querySelector('.dropdown-el');
+
+el.onclick = function(e) {
+  e.preventDefault();
+  e.stopPropagation();
+  el.classList.toggle('expanded');
+  document.getElementById(e.target.getAttribute('for')).checked=true;
+  document.getElementById('CurrencySelector__Select').value = document.getElementById(e.target.getAttribute('for')).value;
+  document.getElementById('CurrencySelector__Select').dispatchEvent(new Event('change'));
+}
+
+setTimeout(function(){
+	document.getElementById("sort-"+document.getElementById('CurrencySelector__Select').value).checked=true;
+},500);
+
+  })();
+
+const elements = document.querySelectorAll('.matildagoad-accordion');
+
+elements.forEach(element => {
+  let btn = element.querySelector('h3');
+
+  btn.addEventListener('click', ()=>{
+  	element.classList.toggle('matildagoad-accordion-hide');
+  });
+});
+
+const homepagevideo = document.querySelectorAll('.homepageblocks .videowrapper video');
+function checksize() {
+homepagevideo.forEach(element => {
+  let lastimage = element.parentNode.parentNode.parentNode.parentNode.parentNode.querySelector('.slide img');
+  /* window.console.log(element.parentNode.parentNode.parentNode.parentNode.parentNode,lastimage,lastimage.offsetHeight); */
+  if(lastimage.offsetHeight > 0) {
+  	element.style.height = lastimage.offsetHeight + "px";
+  } else {
+    setTimeout(checksize,500);
+  }
+});
+}
+checksize();
+
+window.addEventListener("resize", checksize);
+
+const homepagevideo2 = document.querySelectorAll('.Section-Homepage-Blocks2 .videowrapper video');
+function checksize2() {
+homepagevideo.forEach(element => {
+  let lastimage = element.parentNode.parentNode.parentNode.parentNode.parentNode.querySelector('.slide img');
+  window.console.log(element.parentNode.parentNode.parentNode.parentNode.parentNode,lastimage,lastimage.offsetHeight);
+  if(lastimage.offsetHeight > 0) {
+  	element.style.height = (lastimage.offsetHeight-2) + "px";
+  } else {
+    setTimeout(checksize2,500);
+  }
+});
+}
+checksize2();
+
+window.addEventListener("resize", checksize2);

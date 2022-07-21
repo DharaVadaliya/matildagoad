@@ -1,0 +1,128 @@
+{%- assign imageheight = 600 -%}
+
+<section class="Section Section--spacingNormal Section-Homepage-Blocks2 Section-Homepage-Blocks" data-section-id="{{ section.id }}" data-section-type="homepage">
+<div class="Container">
+   <div class="Rte" style="text-align: center">
+      <div class="row-fluid original-homeware">
+{% for block in section.blocks %}
+  {%- capture posinrow -%}{% cycle 'desktop-first tablet-first', 'tablet-last desktop-last', 'desktop-first tablet-first', 'desktop-last tablet-last' %}{%- endcapture -%}
+  {%- capture homepagerow -%}{% cycle 'row-1', 'row-1', 'row-2', 'row-2',  %}{%- endcapture -%}
+  {%- capture blocksize -%}{% cycle 'span6', 'span6', 'span6', 'span6' %}{%- endcapture -%}
+  {% case block.type %}
+    {% when 'homepageimage' %}
+	<div class="{{ homepagerow }} {{ blocksize }} {{posinrow}}">
+      <div class="slide" {{ block.shopify_attributes }}>
+        <a href="{{ block.settings.link2 | escape }}" title="{{ block.settings.subtitle | escape }}">
+          {%- if block.settings.videofile != blank -%}
+          <div class="videowrapper">
+          <video class="video-js" {%- if block.settings.videoloop == "yes" -%}loop{% endif %} autoplay preload="none" muted playsinline
+
+poster="{{ block.settings.image | img_url: 'master' }}">
+
+<source src="{{ block.settings.videofile }}" type="video/mp4">
+
+            </video></div>
+          {%- else -%}
+                    <img loading="lazy" src="{{ block.settings.image | image_url: height: imageheight }}" alt="{{ block.settings.subtitle | escape }}" >
+          {%- endif -%}
+        </a>
+        <p>
+        {%- if block.settings.title != blank -%}<a class="title" href="{{ block.settings.link | escape }}" title="{{ block.settings.title | escape }}">{{ block.settings.title }}</a>
+        {%- endif -%}
+        {%- if block.settings.subtitle != blank -%}
+        &nbsp;/&nbsp;<a class="subtitle" href="{{ block.settings.link2 | escape }}" title="{{ block.settings.subtitle | escape }}">{{ block.settings.subtitle }}</a>
+        {%- endif -%}
+        </p>
+      </div>
+	</div>
+  {% endcase %}
+{% endfor %}
+        </div>
+     </div>
+</div>
+</section>
+
+{% schema %}
+  {
+   	"name": "Homepage2 Blocks",
+	"tag": "section",
+    "class": "shopify-section homepageblocks homepage2",
+    "max_blocks": 5,
+	"templates": ["article", "index", "page", "product"],
+    "settings": [
+    ],
+  "blocks": [
+     {
+       "name": "Image",
+       "type": "homepageimage",
+       "settings": [
+         {
+           "type": "image_picker",
+           "id": "image",
+           "label": "Image"
+         },
+		{
+           "type": "url",
+           "id": "videofile",
+           "label": "Video",
+		   "info": "Video URL in mp4 format (optional)"
+	},
+		{
+           "type": "select",
+           "id": "videoloop",
+           "label": "Video Loop",
+		   "info": "Video Loop",
+  "options": [
+    {
+      "value": "yes",
+      "label": "Yes"
+    },
+    {
+      "value": "no",
+      "label": "No"
+    }
+	],
+  "default": "no"
+	},
+	{
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    },
+	{
+      "type": "text",
+      "id": "subtitle",
+      "label": "Subtitle"
+    },
+	{
+      "type": "url",
+      "id": "link",
+      "label": "Link for Title",
+	  "default": "/"
+    },
+	{
+      "type": "url",
+      "id": "link2",
+      "label": "Link for Subtitle",
+	  "default": "/"
+    }
+       ]
+     }
+   ],
+  "presets": [
+    {
+      "category": "Homepage",
+      "name": "Homepage Block2",
+      "settings": {},
+      "blocks": [
+        {
+          "type": "homepageimage",
+          "settings": {
+
+          }
+        }
+      ]
+    }
+  ]
+  }
+{% endschema %}

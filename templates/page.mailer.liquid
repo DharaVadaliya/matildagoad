@@ -1,0 +1,25 @@
+<div class="Container">
+  <style>
+    @media screen and (max-width: 767px) {
+       .Container {
+         padding: 0 3px; 
+    }
+    }
+   
+  </style>
+  <header class="PageHeader">
+    <div class="SectionHeader SectionHeader--center">
+      <h1 class="SectionHeader__Heading Heading u-h1">{{ page.title }}</h1>
+    </div>
+  </header>
+
+  <div class="PageContent PageContent--narrow Rte">
+     {{ page.content }} 
+  </div>
+  <div style="margin: 80px auto" class="PageContent PageContent--narrow Rte">
+    {% section 'contact-form-new' %}
+  </div>
+
+  {% section 'below-contact-form' %}
+  
+</div>

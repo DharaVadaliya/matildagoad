@@ -1,0 +1,204 @@
+{%- if section.settings.show_popup -%}
+  {%- unless section.settings.show_only_on_index and template != 'index' -%}
+    {%- unless section.settings.show_only_for_visitors and customer -%}
+      {% capture section_settings %}
+        {
+          "apparitionDelay": {{ section.settings.apparition_delay | json }},
+          "showOnlyOnce": {{ section.settings.show_only_once | json }}
+        }
+      {% endcapture %}
+
+      <aside id="new-popup" class="NewsletterPopup" data-section-id="{{ section.id }}" data-section-type="newsletter-popup" data-section-settings='{{ section_settings }}' aria-hidden="true">
+        <img class="border" src="{{ 'border-new.png' | asset_url }}" alt="border"/>
+        <img class="plane" src="{{ 'plane-new.png' | asset_url }}" alt="border"/>
+        <button class="NewsletterPopup__Close" data-action="close-popup" aria-label="{{ 'general.popup.close' | t }}">{% include 'icon' with 'close' %}</button>
+
+        {%- if section.settings.title != blank -%}
+          <h2 class="NewsletterPopup__Heading Heading u-h2">{{ section.settings.title | escape }}</h2>
+        {%- endif -%}
+
+        {%- if section.settings.content1 != blank -%}
+          <div class="NewsletterPopup__Content">
+            {{ section.settings.content1 }}
+          </div>
+        {%- endif -%}
+
+        {%- if section.settings.content2 != blank -%}
+          <div class="NewsletterPopup__Content">
+            {{ section.settings.content2 }}
+          </div>
+        {%- endif -%}
+
+        {%- if section.settings.show_newsletter -%}
+          {%- form 'customer', id: 'newsletter-popup', action: '/contact#newsletter-popup', class: 'NewsletterPopup__Form' -%}
+            {%- if form.posted_successfully? -%}
+              <p class="Form__Alert Alert Alert--success">{{ 'general.popup.success' | t }}</p>
+            {%- else -%}
+              <input type="hidden" name="contact[tags]" value="newsletter">
+              <input type="text" name="contact[first_name]" class="Form__Input newsletter_input" required="required" aria-label="{{ 'general.popup.first_name_placeholder' | t }}" placeholder="{{ 'general.popup.first_name_placeholder' | t }}">
+        	  <input type="text" name="contact[last_name]" class="Form__Input newsletter_input" required="required" aria-label="{{ 'general.popup.last_name_placeholder' | t }}" placeholder="{{ 'general.popup.last_name_placeholder' | t }}">
+              <input type="email" name="contact[email]" class="Form__Input newsletter_input" required="required" aria-label="{{ 'general.popup.email_placeholder' | t }}" placeholder="{{ 'general.popup.email_placeholder' | t }}">
+              <button class="Form__Submit Button Button--primary Button--full newsletter_submit" type="submit">{{ 'general.popup.submit' | t }}</button>
+            {%- endif -%}
+          {%- endform -%}
+        {%- endif -%}
+        <style>
+          #new-popup {
+          	    width: 400px;
+              height: 394px;
+              max-width: unset;
+              padding: 0;
+              text-transform: uppercase;
+              font-family: Work Sans !important;
+          }
+
+          @media screen and (max-width: 767px) {
+            #new-popup {
+              top: 50%;
+              left: 50%;
+              transform: translateX(-50%) translateY(-50%);
+            }
+          }
+
+          #new-popup h2 {
+            margin-top: 40px;
+            color: #14234C;
+          }
+
+          #new-popup p {
+           	color: #14234C;
+          }
+
+          #new-popup p:first-of-type {
+           	margin-bottom: 15px;
+          }
+
+          #new-popup .NewsletterPopup__Form {
+          	margin-top: 15px;
+          }
+
+          #new-popup .plane {
+            position: absolute;
+            width: 100%;
+            bottom: 29px;
+            margin: 0 !important;
+          }
+
+          #new-popup .border {
+                        position: absolute;
+    left: -4px;
+    top: -61px;
+    width: 409px;
+    height: 460px;
+    max-width: unset;
+    z-index: -1;
+    margin-top: 0 !important;
+          }
+
+          #new-popup .newsletter_submit {
+          	font-family: Work Sans;
+            font-size: 14px;
+            padding: 5px;
+            width: 90%;
+            background-color: #14234C;
+            margin: 15px auto 0;
+                letter-spacing: 1px;
+          }
+
+          #new-popup .newsletter_submit:hover {
+           color: white !important;
+          }
+
+          #new-popup .newsletter_submit::before {
+            background-color: #14234C !important;
+          }
+
+          #new-popup .Form__Input {
+              text-align: center;
+              border: none;
+              border-bottom: 1px solid #14234C;
+              width: 90%;
+              margin: auto;
+              padding: 3px;
+              margin-bottom: 10px;
+              font-size: 14px;
+                letter-spacing: 1px;
+          }
+
+          #new-popup .Form__Input::placeholder {
+           	color: #14234C;
+            opacity: 1;
+          }
+
+        </style>
+      </aside>
+    {%- endunless -%}
+  {%- endunless -%}
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Popup-new",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "show_popup",
+      "label": "Enable",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "show_only_on_index",
+      "label": "Show only on home page",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_only_for_visitors",
+      "label": "Show only for visitors",
+      "info": "Customers who have created an account on your shop won't see it.",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_only_once",
+      "label": "Show only once per customer",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Matilda Mail"
+    },
+    {
+      "type": "richtext",
+      "id": "content1",
+      "label": "Text",
+      "default": "<p>Be in the know...</p>"
+    },
+    {
+      "type": "richtext",
+      "id": "content2",
+      "label": "Text",
+      "default": "<p>Sign up for insider tricks of the trade, recipes, discounts and more...</p>"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_newsletter",
+      "label": "Show newsletter form",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "apparition_delay",
+      "min": 0,
+      "max": 15,
+      "step": 1,
+      "unit": "sec",
+      "label": "Delay until the popup appears",
+      "default": 5
+    }
+  ]
+}
+{% endschema %}

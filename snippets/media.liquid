@@ -1,0 +1,49 @@
+{%- if image.id == product.selected_or_first_available_variant.image.id -%}
+	{%- assign initial_image_index = image_count -%}
+	{%- assign initial_image_id = image.id -%}
+{%- endif -%}
+
+{% case media.media_type %}
+  {% when 'image' %}
+	<div id="Image{{ media.id }}" class="Product__SlideItem Product__SlideItem--image Carousel__Cell {% if initial_image_id == media.id %}is-selected{% endif %}"
+			 data-image-position-ignoring-video="{% increment image_position_without_video %}"
+             data-image-position="{% increment image_position %}"
+             data-image-id="{{ media.id }}">
+<div class="AspectRatio AspectRatio--withFallback" style="padding-bottom: {{ 100.0 | divided_by: image.aspect_ratio }}%; --aspect-ratio: {{ image.aspect_ratio }};">
+      {{ media | image_url: width: 2048, height: 2048 | image_tag: media.title , "Image--lazyLoad Image--fadeIn"}}
+    </div></div>
+  {% when 'external_video' %}
+	<div id="Image{{ media.id }}" class="Product__SlideItem Product__SlideItem--video Carousel__Cell {% if initial_image_id == media.id %}is-selected{% endif %}"
+             data-action="open-modal" aria-controls="modal-video-{{ media.id }}"
+             data-image-position="{% increment image_position %}"
+             data-image-id="{{ media.id }}">
+<div class="AspectRatio AspectRatio--withFallback" style="padding-bottom: {{ 100.0 | divided_by: image.aspect_ratio }}%; --aspect-ratio: {{ image.aspect_ratio }};">
+     {{ media | external_video_tag }}
+    </div></div>
+  {% when 'video' %}
+	<div id="Image{{ media.id }}" class="Product__SlideItem Product__SlideItem--video Carousel__Cell {% if initial_image_id == media.id %}is-selected{% endif %}"
+             data-action="open-modal" aria-controls="modal-video-{{ media.id }}"
+             data-image-position="{% increment image_position %}"
+             data-image-id="{{ media.id }}">
+<div class="AspectRatio AspectRatio--withFallback" style="padding-bottom: {{ 100.0 | divided_by: image.aspect_ratio }}%; --aspect-ratio: {{ image.aspect_ratio }};">
+      {{ media | video_tag: controls: true }}
+    </div></div>
+  {% when 'model' %}
+    <div class="product-single__media" style="padding-top: 100%" data-media-id="{{ media.id }}">	<div id="Image{{ media.id }}" class="Product__SlideItem Product__SlideItem--video Carousel__Cell {% if initial_image_id == media.id %}is-selected{% endif %}"
+             data-action="open-modal" aria-controls="modal-video-{{ media.id }}"
+             data-image-position="{% increment image_position %}"
+             data-image-id="{{ media.id }}">
+<div class="AspectRatio AspectRatio--withFallback" style="padding-bottom: {{ 100.0 | divided_by: image.aspect_ratio }}%; --aspect-ratio: {{ image.aspect_ratio }};">
+      {{ media | model_viewer_tag }}
+    </div></div>
+  {% else %}
+	<div id="Image{{ media.id }}" class="Product__SlideItem Product__SlideItem--video Carousel__Cell {% if initial_image_id == media.id %}is-selected{% endif %}"
+             data-action="open-modal" aria-controls="modal-video-{{ media.id }}"
+             data-image-position="{% increment image_position %}"
+             data-image-id="{{ media.id }}">
+<div class="AspectRatio AspectRatio--withFallback" style="padding-bottom: {{ 100.0 | divided_by: image.aspect_ratio }}%; --aspect-ratio: {{ image.aspect_ratio }};">
+      {{ media | media_tag }}
+    </div></div>
+{% endcase %}
+
+{%- assign image_count = image_count | plus: 1 -%}

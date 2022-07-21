@@ -1,0 +1,200 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 8,
+        "padding_bottom": 0,
+        "bgcolor": "#8fac8c",
+        "defaultfontsize": 14,
+        "defaulttitlefontsize": 30,
+        "margin_bottom": 80,
+        "margin_title_bottom": 20,
+        "margin_title_top": 20
+      }
+    },
+    "contact-form-new": {
+      "type": "contact-form-new",
+      "settings": {
+        "title": "Matilda Mail",
+        "content1": "",
+        "content2": "<p>Hello, <\/p><p>My pursuit of the perfect home has proven to be endless, stretching far beyond the physical. I have come to realise that collecting and curating objects is only half of the challenge when building a home, the other half is intangible and impossible to put into words. <\/p><p>With this in mind, I created The Dispatch, a letter landing in your inbox monthly, offering my take on building a home. Expect my practical advice on looking after the objects you love, creating more calm in a busy home, notes on using lighting to your advantage, as well as life hacks and sourcing tips. <\/p><p>The Dispatch opens the door into my world, with the hope of helping to fill the spaces that objects can’t.  <\/p><p>Matilda x <\/p>",
+        "show_newsletter": true,
+        "image": "shopify:\/\/shop_images\/Cookbook.png"
+      }
+    },
+    "1644228960d3e782e4": {
+      "type": "carousel",
+      "blocks": {
+        "16442289605d33d88f-1": {
+          "type": "imageitem",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Secret_Flea.png",
+            "alt": "Image",
+            "image_alignment": "center center",
+            "content_position": "bottomLeft",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "apply_overlay": true
+          }
+        },
+        "16442289605d33d88f-0": {
+          "type": "imageitem",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Marie_Image.png",
+            "alt": "Image",
+            "image_alignment": "center center",
+            "content_position": "bottomLeft",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "apply_overlay": true
+          }
+        },
+        "16442289605d33d88f-2": {
+          "type": "imageitem",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Allotment.png",
+            "alt": "Image",
+            "image_alignment": "center center",
+            "content_position": "bottomLeft",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "apply_overlay": true
+          }
+        },
+        "f7a461ba-febc-4a1e-aa08-dc7883b09809": {
+          "type": "imageitem",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Marie.jpg",
+            "alt": "Image",
+            "image_alignment": "center center",
+            "content_position": "bottomLeft",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "apply_overlay": true
+          }
+        },
+        "bbcccb70-a9e8-443c-a874-7b227190a295": {
+          "type": "imageitem",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MG_0645.jpg",
+            "alt": "Image",
+            "image_alignment": "center center",
+            "content_position": "bottomLeft",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "apply_overlay": true
+          }
+        },
+        "b4215a6d-4f51-4ca2-b77e-56c4dce8173b": {
+          "type": "imageitem",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Laundry.png",
+            "alt": "Image",
+            "image_alignment": "center center",
+            "content_position": "bottomLeft",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "apply_overlay": true
+          }
+        },
+        "e1f18c05-bf1a-45e2-b2ca-2c296bd60097": {
+          "type": "imageitem",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SS.jpg",
+            "alt": "Image",
+            "image_alignment": "center center",
+            "content_position": "bottomLeft",
+            "subheading": "Sub-heading",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "apply_overlay": true
+          }
+        },
+        "ee11cef5-1e45-4bea-bfb7-ef9cd5248c02": {
+          "type": "imageitem",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled-1.png",
+            "alt": "Image",
+            "image_alignment": "center center",
+            "content_position": "bottomLeft",
+            "subheading": "Sub-heading",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "apply_overlay": true
+          }
+        }
+      },
+      "block_order": [
+        "16442289605d33d88f-1",
+        "16442289605d33d88f-0",
+        "16442289605d33d88f-2",
+        "f7a461ba-febc-4a1e-aa08-dc7883b09809",
+        "bbcccb70-a9e8-443c-a874-7b227190a295",
+        "b4215a6d-4f51-4ca2-b77e-56c4dce8173b",
+        "e1f18c05-bf1a-45e2-b2ca-2c296bd60097",
+        "ee11cef5-1e45-4bea-bfb7-ef9cd5248c02"
+      ],
+      "settings": {
+        "height": 250,
+        "add_spacing": false,
+        "expand_collection": false,
+        "text_color": "#ffffff",
+        "button_color": "#363636"
+      }
+    },
+    "below-contact-form": {
+      "type": "below-contact-form",
+      "blocks": {
+        "bbb299c1-9565-4c11-9d74-d94ce792f2ee": {
+          "type": "bottomimages",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Fridges.jpg",
+            "title": "WE NEED TO TALK ABOUT FRIDGES",
+            "url": "https:\/\/mailchi.mp\/cff3a96365aa\/laundry-day?e=[UNIQID]",
+            "subtitle": "",
+            "link2": "https:\/\/mailchi.mp\/0bf528766b7a\/we-need-to-talk-about-fridges"
+          }
+        },
+        "71ec328e-606a-4e81-b856-65c455cd8f58": {
+          "type": "bottomimages",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cutlery.jpg",
+            "title": "A TRIBUTE TO THE HODGEPODGE TABLE",
+            "url": "https:\/\/mailchi.mp\/e71c90d903bb\/the-dispatch-february-digest?e=[UNIQID]",
+            "subtitle": "",
+            "link2": "https:\/\/mailchi.mp\/8f4c3a96dfac\/the-dispatch-april-digest"
+          }
+        }
+      },
+      "block_order": [
+        "bbb299c1-9565-4c11-9d74-d94ce792f2ee",
+        "71ec328e-606a-4e81-b856-65c455cd8f58"
+      ],
+      "settings": {
+        "columns": 2,
+        "title": "Read previous digests..."
+      }
+    }
+  },
+  "order": [
+    "main",
+    "contact-form-new",
+    "1644228960d3e782e4",
+    "below-contact-form"
+  ]
+}

@@ -1,0 +1,42 @@
+{%- assign collection_image = block.settings.image -%}
+
+{%- assign imgheight = section.settings.height -%}
+{%- assign imgwidth = collection_image.aspect_ratio | times: imgheight -%}
+
+<div {{ block.shopify_attributes }} class="Carousel__Cell {% if forloop.first %}is-selected{% endif %}" data-slide-index="{{ forloop.index0 }}" style="height:{{imgheight}}px;width:{{imgwidth}}px;">
+  {%- capture mobile_size -%}750x{% if collection_image.height >= 960 %}960{% else %}{{ collection_image.height }}{% endif %}{%- endcapture -%}
+  {%- assign image_crop = block.settings.image_alignment | split: ' ' | last -%}
+
+  
+
+    <div class="CarouselItem__Wrapper CarouselItem__Wrapper--{{ section.settings.image_size }}">
+      <div class="CarouselItem__ImageWrapper">
+
+        {%- assign max_width = collection_image.width -%}
+        {%- include 'image-size', sizes: '200,400,600,700,800,900,1000,1200', image: collection_image -%}
+        {%- assign imgsize = "x" | append: imgheight -%}
+        {%- assign image_url = collection_image | img_url: imgsize -%}
+		<a href="{{ block.settings.button_link }}">
+			<div class="AspectRatio AspectRatio--withFallback" style="height: {{imgheight}}px; --aspect-ratio: {{collection_image.aspect_ratio}}">
+     		   <img loading="lazy" class="CarouselItem__Image Image--lazyLoad Image--fadeIn" data-src="{{ image_url }}" alt="{{ block.settings.alt | escape }}" data-image-id="{{ collection_image.id }}" />
+        	</div>
+  		</a>
+  	</div>
+
+      <div class="CarouselItem__Content CarouselItem__Content--{{ block.settings.content_position | default: 'bottomLeft' }}">
+          		
+          {%- if block.settings.subheading != blank -%}
+            <h3 class="SectionHeader__SubHeading Heading u-h6">{{ block.settings.subheading | escape }}</h3>
+          {%- endif -%}
+
+          {%- if block.settings.title != blank -%}
+            <h2 class="SectionHeader__Heading SectionHeader__Heading--emphasize Heading u-h1">{{ block.settings.title | escape }}</h2>
+          {%- endif -%}
+
+      </div>
+
+    </div>
+
+
+
+</div>

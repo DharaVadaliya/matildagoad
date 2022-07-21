@@ -1,0 +1,263 @@
+<section class="Section" id="section-{{ section.id }}" data-section-id="{{ section.id }}" data-section-type="accordion-block">
+  <div class="Container">
+{% for block in section.blocks %}
+  <div class="mg-accordion">
+  	<div class="mg-accordion-header">{{ block.settings.title }}
+      <button><svg class="Icon Icon--select-arrow" role="presentation" viewBox="0 0 19 12">
+      <polyline fill="none" stroke="currentColor" points="17 2 9.5 10 2 2" fill-rule="evenodd" stroke-width="2" stroke-linecap="square"></polyline>
+    </svg></button></div>
+  	<div class="mg-accordion-content">{{ block.settings.content }}</div>
+  </div>
+{% endfor %}
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Accordion",
+    "class": "shopify-section accordion",
+	"tag": "section",
+	"settings": [
+				{
+           "type": "select",
+           "id": "border",
+           "label": "Enable Border",
+		   "info": "Enable Border",
+  "options": [
+    {
+      "value": "yes",
+      "label": "Yes"
+    },
+    {
+      "value": "no",
+      "label": "No"
+    }
+	],
+  "default": "no"
+	},
+				{
+           "type": "select",
+           "id": "background",
+           "label": "Enable Background",
+		   "info": "Enable Background for Header",
+  "options": [
+    {
+      "value": "yes",
+      "label": "Yes"
+    },
+    {
+      "value": "no",
+      "label": "No"
+    }
+	],
+  "default": "no"
+	},
+				{
+           "type": "select",
+           "id": "centertext",
+           "label": "Center Text",
+		   "info": "Center Text",
+  "options": [
+    {
+      "value": "yes",
+      "label": "Yes"
+    },
+    {
+      "value": "no",
+      "label": "No"
+    }
+	],
+  "default": "no"
+	},
+				{
+           "type": "select",
+           "id": "centerheader",
+           "label": "Center Header",
+		   "info": "Center Header",
+  "options": [
+    {
+      "value": "yes",
+      "label": "Yes"
+    },
+    {
+      "value": "no",
+      "label": "No"
+    }
+	],
+  "default": "no"
+	},
+				{
+           "type": "select",
+           "id": "separatorline",
+           "label": "Separator Line",
+		   "info": "Separator Line",
+  "options": [
+    {
+      "value": "yes",
+      "label": "Yes"
+    },
+    {
+      "value": "no",
+      "label": "No"
+    }
+	],
+  "default": "yes"
+	},
+				{
+           "type": "select",
+           "id": "uppercaseheader",
+           "label": "Uppercase Header",
+		   "info": "Uppercase Header",
+  "options": [
+    {
+      "value": "yes",
+      "label": "Yes"
+    },
+    {
+      "value": "no",
+      "label": "No"
+    }
+	],
+  "default": "yes"
+	},
+    {
+      "type": "range",
+      "id": "maxwidth",
+      "min": 800,
+      "max": 1600,
+      "step": 50,
+      "unit": "px",
+      "label": "Max Width",
+      "default": 1200
+    },
+    {
+      "type": "range",
+      "id": "headerfontsize",
+      "min": 18,
+      "max": 30,
+      "step": 1,
+      "unit": "px",
+      "label": "Header Font Size",
+      "default": 24
+    },
+    {
+      "type": "range",
+      "id": "contentfontsize",
+      "min": 12,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "label": "Content Font Size",
+      "default": 18
+    }
+	],
+  	"blocks": [
+    {
+       "name": "Accordion Item",
+       "type": "accordionitem",
+       "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Your Heading"
+    },
+    {
+      "type": "richtext",
+      "id": "content",
+      "label": "Text",
+      "default": "<p>Add your own custom content to give more information about your store, availability details...</p>"
+    }
+		]
+	}
+	],
+  "presets": [
+    {
+      "category": "Text",
+      "name": "Accordion",
+      "settings": {}
+    }
+  ]
+  }
+{% endschema %}
+
+{% style %}
+{%- if section.settings.border == "yes" -%}
+#section-{{ section.id }} .mg-accordion:first-of-type {
+	border-top: 1px solid #f1e4e4;
+}
+#section-{{ section.id }} .mg-accordion {
+	border-bottom: 1px solid #f1e4e4;
+	border-left: 1px solid #f1e4e4;
+	border-right: 1px solid #f1e4e4;
+}
+{%- endif -%}
+#section-{{ section.id }} .mg-accordion {
+	padding:5px 10px;
+}
+{%- if section.settings.background == "yes" -%}
+#section-{{ section.id }} .mg-accordion .mg-accordion-header{
+	background-color: #f1e4e4;
+	padding:5px 10px;
+}
+#section-{{ section.id }} .mg-accordion .mg-accordion-content {
+	padding:5px 10px;
+}
+#section-{{ section.id }} .mg-accordion {
+	padding:0px;
+}
+{%- endif -%}
+
+{%- if section.settings.separatorline == "yes" -%}
+#section-{{ section.id }} .mg-accordion {
+	border-top: 2px solid #531c16;
+}
+#section-{{ section.id }} .mg-accordion:first-of-type {
+	border-top: 0px none;
+}
+{%- endif -%}
+
+#section-{{ section.id }} .mg-accordion .mg-accordion-content {
+	display:none;
+	font-size: {{ section.settings.contentfontsize }}px;
+	line-height: normal;
+	padding-bottom:20px;
+{%- if section.settings.centertext == "yes" -%}
+	text-align:center;
+{%- endif -%}
+}
+#section-{{ section.id }} .mg-accordion .mg-accordion-header {
+	cursor: pointer;
+{%- if section.settings.centerheader == "yes" -%}
+	text-align:center;
+{%- endif -%}
+{%- if section.settings.uppercaseheader == "yes" -%}
+	text-transform:uppercase;
+{%- endif -%}
+	width:100%;
+	font-family: 'highway_gothic_narrowregular';
+	font-weight: 400;
+	font-style: normal;
+	text-decoration: none;
+	letter-spacing: 3px;
+	font-size: {{ section.settings.headerfontsize }}px;
+	line-height: 50px;
+}
+#section-{{ section.id }} .Container {max-width: {{ section.settings.maxwidth }}px;}
+#section-{{ section.id }} .mg-accordion .mg-accordion-header button {float:right;}
+#section-{{ section.id }} .mg-accordion.active .mg-accordion-content  {display:block;}
+#section-{{ section.id }} .mg-accordion.active .mg-accordion-header button {transform: rotate(180deg);}
+{% endstyle %}
+
+{% javascript %}
+const elements = document.querySelectorAll('.mg-accordion');
+window.console.log("test",elements);
+elements.forEach(element => {
+  let btn = element.querySelector('.mg-accordion-header');
+
+  btn.addEventListener('click', ()=>{
+  	element.classList.toggle('active');
+	window.console.log("click",element);
+  });
+});
+{% endjavascript %}

@@ -1,0 +1,96 @@
+{%- assign imageheight = 600 -%}
+
+<div class="Container">
+   <div class="below-contact-form Rte" style="text-align: center">
+     {%- if section.settings.title != empty -%}
+     <h2>{{section.settings.title}}</h2>
+     {%- endif -%}
+      <div class="row-fluid">
+{% for block in section.blocks %}
+            {%- if section.settings.columns == 2 -%}
+  {%- capture homepagerow -%}{% cycle 'row-1', 'row-1', 'row-2', 'row-2' %}{%- endcapture -%}
+  {%- capture blocksize -%}{% cycle 'span6', 'span6', 'span6', 'span6' %}{%- endcapture -%}
+            {%- elsif section.settings.columns == 3 -%}
+  {%- capture homepagerow -%}{% cycle 'row-1', 'row-1', 'row-1', 'row-2' %}{%- endcapture -%}
+  {%- capture blocksize -%}{% cycle 'span4', 'span4', 'span4', 'span12' %}{%- endcapture -%}
+            {%- else -%}
+  {%- capture homepagerow -%}{% cycle 'row-1', 'row-1', 'row-1', 'row-1' %}{%- endcapture -%}
+  {%- capture blocksize -%}{% cycle 'span3', 'span3', 'span3', 'span3' %}{%- endcapture -%}
+            {%- endif -%}
+  {% case block.type %}
+    {% when 'bottomimages' %}
+	<div class="{{ homepagerow }} {{ blocksize }}">
+      <div class="slide" {{ block.shopify_attributes }}>
+        <a href="{{ block.settings.link2 | escape }}" title="{{ block.settings.subtitle | escape }}"><img loading="lazy" src="{{ block.settings.image | image_url: height: imageheight }}" alt="{{ block.settings.subtitle | escape }}" ></a>
+        <p>
+        {%- if block.settings.title != blank -%}<a class="title" href="{{ block.settings.url | escape }}" title="{{ block.settings.title | escape }}">{{ block.settings.title }}</a>
+        {%- endif -%}
+        {%- if block.settings.subtitle != blank -%}
+        &nbsp;/&nbsp;<a class="subtitle" href="{{ block.settings.link2 | escape }}" title="{{ block.settings.subtitle | escape }}">{{ block.settings.subtitle }}</a>
+        {%- endif -%}
+        </p>
+      </div>
+	</div>
+  {% endcase %}
+{% endfor %}
+	</div>
+  	</div>     
+  	</div> 
+
+{% schema %}
+{
+  "name": "below contact form",
+    "max_blocks": 4,
+  "blocks": [
+     {
+       "name": "Image",
+       "type": "bottomimages",
+       "settings": [
+         {
+           "type": "image_picker",
+           "id": "image",
+           "label": "Image"
+         },
+	{
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+         },
+	{
+      "type": "url",
+      "id": "url",
+      "label": "Link for Title"
+	},
+	{
+      "type": "text",
+      "id": "subtitle",
+      "label": "Subtitle",
+	  "default": "read now"
+    },
+	{
+      "type": "url",
+      "id": "link2",
+      "label": "Link for Subtitle and Image",
+	  "default": "/"
+    }
+       ]
+     }
+   ],
+  "settings": [
+    {
+      "type": "range",
+      "id": "columns",
+      "min": 2,
+      "max": 4,
+      "step": 1,
+      "label": "Columns",
+      "default": 4
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    }
+  ]
+}
+{% endschema %}

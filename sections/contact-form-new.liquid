@@ -1,0 +1,194 @@
+<div class="contact-form-new-section">
+<div class="Container">
+<div class="row-fluid">
+  <div class="span6">
+    {{section.settings.content1}}
+    {{section.settings.content2}}
+  </div>
+  <div class="span6">
+<div id="new-form" class="NewsletterPopup" style="{%- if section.settings.image != empty -%}background-image: url({{section.settings.image | image_url}}) !important;background-size:cover !important;{%- endif -%}">
+        <div id="dispatch-image" >
+          <div class="form-container">
+          {%- if section.settings.show_newsletter -%}
+            {%- form 'customer', id: 'newsletter-popup', action: '/contact#newsletter-popup', class: 'NewsletterPopup__Form' -%}
+              {%- if form.posted_successfully? -%}
+                <p style="width: 90%; margin: auto;" class="Form__Alert Alert Alert--success">{{ 'general.popup.success' | t }}</p>
+              {%- else -%}
+                <input type="hidden" name="contact[location]" value="popup">
+            	<input type="hidden" name="contact[tags]" value="newsletter">
+                <input type="text" name="contact[first_name]" class="Form__Input newsletter_input" required="required" aria-label="{{ 'general.popup.first_name_placeholder' | t }}" placeholder="{{ 'general.popup.first_name_placeholder' | t }}", style='font-family: "Work Sans",sans-serif;'>
+                <input type="text" name="contact[last_name]" class="Form__Input newsletter_input" required="required" aria-label="{{ 'general.popup.last_name_placeholder' | t }}" placeholder="{{ 'general.popup.last_name_placeholder' | t }}", style='font-family: "Work Sans",sans-serif;'>
+                <input type="email" name="contact[email]" class="Form__Input newsletter_input" required="required" aria-label="{{ 'general.popup.email_placeholder' | t }}" placeholder="{{ 'general.popup.email_placeholder' | t }}", style='font-family: "Work Sans",sans-serif;'>
+                <button class="Form__Submit Button Button--primary Button--full newsletter_submit" type="submit">{{ 'general.popup.submit' | t }}</button>
+              {%- endif -%}
+            {%- endform -%}
+          {%- endif -%}
+          </div>
+        </div>
+</div> 
+  </div></div>
+</div>
+</div>
+
+        <style>
+          #dispatch-image img {
+          	height: 480px !important;
+          }
+          #new-form {
+          	    width: 400px;
+              height: 394px;
+              max-width: unset;
+              padding: 0;
+              text-transform: uppercase;
+              font-family: Roboto Light !important;
+              box-shadow: none !important;
+          }
+
+          @media screen and (max-width: 767px) {
+            #new-form {
+width: 364px;
+    height: 367px;
+            }
+
+            #new-form .border {
+             width: 373px;
+    height: 429px;
+            }
+          }
+
+          #new-form.NewsletterPopup {
+            opacity: 1 !important;
+            visibility: unset;
+            position: relative;
+            margin: auto;
+            right: 0;
+            left: 0 !important;
+            z-index: 0;
+            background: transparent !important;
+          }
+
+          #new-form .form-container {
+          	position: absolute;
+    		top: 83px;
+                padding: 0 10px;
+          }
+
+          #new-form h2 {
+            margin-top: 40px;
+            color: #14234C;
+          }
+
+          #new-form p {
+           	color: #14234C;
+          }
+
+          #new-form p:first-of-type {
+           	margin-bottom: 15px;
+          }
+
+          #new-form .NewsletterPopup__Form {
+          	margin-top: 15px;
+          }
+
+          #new-form .plane {
+                position: absolute;
+            width: 100%;
+            bottom: 29px;
+            margin: 0 !important;
+          }
+
+          #new-form .border {
+            position: absolute;
+    left: -4px;
+    top: -61px;
+    width: 409px;
+    height: 460px;
+    max-width: unset;
+    z-index: -1;
+    margin-top: 0 !important;
+          }
+
+          #new-form .newsletter_submit {
+          	font-family: "Work Sans",sans-serif;
+            font-size: 16px;
+            padding: 5px;
+            width: 75%;
+            background-color: #14234C;
+            color: white !important;
+            margin: 15px auto 0;
+                letter-spacing: 1px;
+                font-weight: 600;
+          }
+
+          #new-form .newsletter_submit::before {
+            background-color: #14234C !important;
+          }
+
+          #new-form .Form__Input {
+              text-align: center;
+              border: none;
+              border-bottom: 1px solid #14234C;
+              width: 75%;
+              margin: auto;
+              padding: 3px;
+              margin-bottom: 10px;
+              font-size: 16px;
+                letter-spacing: 1px;
+          }
+
+          #new-form .Form__Input::placeholder {
+           	color: #14234C;
+            opacity: 1;
+          }
+
+          @media screen and (max-width: 767px) {
+            #new-form {
+width: 364px;
+    height: 367px;
+            }
+
+            #new-form .border {
+             width: 373px;
+    height: 429px;
+                  top: -57px;
+            }
+          }
+
+        </style>
+
+{% schema %}
+{
+  "name": "Dispatch Mailer",
+  "settings": [
+  	{
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Matilda Mail"
+    },
+    {
+      "type": "richtext",
+      "id": "content1",
+      "label": "Text",
+      "default": "<p>Be in the know...</p>"
+    },
+    {
+      "type": "richtext",
+      "id": "content2",
+      "label": "Text",
+      "default": "<p>Sign up for insider tricks of the trade, recipes, discounts and more...</p>"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_newsletter",
+      "label": "Show newsletter form",
+      "default": true
+    },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Background Image"
+        }
+  ]
+}
+{% endschema %}

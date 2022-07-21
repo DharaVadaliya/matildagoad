@@ -1,0 +1,304 @@
+{%- if section.settings.show_popup -%}
+  {%- unless section.settings.show_only_on_index and template != 'index' -%}
+    {%- unless section.settings.show_only_for_visitors and customer -%}
+      {% capture section_settings %}
+        {
+          "apparitionDelay": {{ section.settings.apparition_delay | json }},
+          "showOnlyOnce": {{ section.settings.show_only_once | json }}
+        }
+      {% endcapture %}
+
+      <aside id="new-popup" class="NewsletterPopup" data-section-id="{{ section.id }}" data-section-type="newsletter-popup" data-section-settings='{{ section_settings }}' aria-hidden="true">
+<!--         <img class="border" src="{{ 'dispatch_frame_only_new_taller.png' | asset_url }}" alt="border"/, style="height: 480px; background-color: white;"> -->
+<!--        <img class="border" src="{{ 'border-new.png' | asset_url }}" alt="border"/>  -->
+<!-- 		<img class="plane" src="{{ 'plane-new.png' | asset_url }}" alt="border"/> -->
+        <button class="NewsletterPopup__Close" data-action="close-popup" aria-label="{{ 'general.popup.close' | t }}">{% include 'icon' with 'close' %}</button>
+        <div class="form-container">
+        {%- if section.settings.content2 != blank -%}
+          <div class="NewsletterPopup__Content">
+            <div class="Popup__Content1">
+            {{ section.settings.content1 }}
+            </div>
+            <div class="Popup__Content2">
+            {{ section.settings.content2 }}
+            </div>
+          </div>
+        {%- endif -%}
+
+        {%- if section.settings.show_newsletter -%}
+          {%- form 'customer', id: 'newsletter-popup', action: '/contact#newsletter-popup', class: 'NewsletterPopup__Form' -%}
+            {%- if form.posted_successfully? -%}
+              <p class="Form__Alert Alert Alert--success">{{ 'general.popup.success' | t }}</p>
+            {%- else -%}
+              <input type="hidden" name="contact[tags]" value="newsletter">
+              <input type="text" name="contact[first_name]" class="Form__Input newsletter_input popup-firstname" required="required" aria-label="{{ 'general.popup.first_name_placeholder' | t }}" placeholder="{{ 'general.popup.first_name_placeholder' | t }}">
+        	  <input type="text" name="contact[last_name]" class="Form__Input newsletter_input popup-lastname" required="required" aria-label="{{ 'general.popup.last_name_placeholder' | t }}" placeholder="surname">
+              <input type="email" name="contact[email]" class="Form__Input newsletter_input popup-email" required="required" aria-label="{{ 'general.popup.email_placeholder' | t }}" placeholder="enter your email address">
+              <button class="Form__Submit Button Button--primary Button--full newsletter_submit popup-submit", style="color: white; text-decoration: none;"><img src="{{ 'Symbols_5_new.svg' | asset_url }}" alt="&gt;" /></button>
+            {%- endif -%}
+          {%- endform -%}
+        {%- endif -%}
+        </div>
+        <style>
+          #new-popup {
+          	  width: 100%;
+              height: 215px;
+              max-width: 500px;
+              padding: 0;
+              text-transform: uppercase;
+              border-radius: 0px;
+              border: 2px solid #531c16;
+              box-shadow: 0 0 0;
+              background: #f1e4e4;
+              color: #531c16;
+          }
+          #new-popup .Popup__Content1 {
+              font-family: highway_gothic_narrowregular!important;
+              letter-spacing: 4px;
+              font-size:15px;
+              font-weight: 700;
+          }
+          #new-popup .Popup__Content2 {
+              font-family: highway_gothic_narrowregular!important;
+              letter-spacing: 0px;
+              font-size:14px;
+              font-weight: 400;
+              text-transform: none;
+          }
+          #new-popup h2 {
+            margin-top: 40px;
+            color: #14234C;
+          }
+
+          #new-popup p {
+           	color: #531c16;
+          }
+
+          #new-popup p:first-of-type {
+           	margin-bottom: 15px;
+          }
+
+          #new-popup .form-container {
+          	/*position: absolute;
+    		top: 83px;
+            padding: 0 10px;*/
+            margin: 40px auto;
+          }
+
+          #new-popup .NewsletterPopup__Form {
+          	margin: 15px auto;
+            display: flex;
+            flex-wrap: wrap;
+            position: relative;
+            max-width: 420px;
+          }
+
+          #new-popup .plane {
+            position: absolute;
+            width: 100%;
+            bottom: 29px;
+            margin: 0 !important;
+            left: 0;
+          }
+
+          #new-popup .border {
+            position: absolute;
+            left: -4px;
+            top: -61px;
+            width: 409px;
+            height: 460px;
+            max-width: unset;
+            z-index: -1;
+            margin-top: 0 !important;
+          }
+
+          /*#new-popup .newsletter_submit {
+          	font-family: Roboto Light !important;
+            font-size: 14px;
+            padding: 5px;
+            width: 75%;
+            background-color: #14234C;
+            margin: 15px auto 0;
+            letter-spacing: 1px;
+          }
+
+          #new-popup .newsletter_submit:hover {
+           color: white !important;
+          }
+
+          #new-popup .newsletter_submit::before {
+            background-color: #14234C !important;
+          }*/
+
+          #new-popup .Form__Input {
+              text-align: center;
+              border: none;
+              border-bottom: 1px solid #531c16;
+              width: 75%;
+              margin: auto;
+              padding: 3px 3px 8px 3px;
+              margin-bottom: 10px;
+              font-size: 14px;
+              letter-spacing: 1px;
+              color: #531c16;
+              text-transform: lowercase;
+              font-style: italic;
+              font-family: mrs-eaves,serif!important;
+          }
+
+          #new-popup .Form__Input::placeholder {
+           	color: #531c16;
+            opacity: 1;
+            font-style: italic;
+            font-family: mrs-eaves,serif !important;
+            font-weight: 400;
+          }
+          
+          #newsletter-popup .popup-firstname, #newsletter-popup .popup-lastname {
+            width: 200px;
+          }
+            @media(max-width: 640px) {
+              #newsletter-popup .popup-firstname, #newsletter-popup .popup-lastname {
+               width: 100%;
+            }
+          }
+          #newsletter-popup .popup-firstname {
+            margin-right:20px;
+          }
+            @media(max-width: 640px) {
+              #newsletter-popup .popup-firstname {
+               margin-right:0px;
+            }
+          }
+          #newsletter-popup .popup-email {
+            width: 420px;
+          }
+            @media(max-width: 640px) {
+               #newsletter-popup .popup-email {
+               width: 100%;
+            }
+          }
+          #newsletter-popup button.popup-submit:before {
+               display: none;
+            }
+          #newsletter-popup button.popup-submit {
+            padding: 0px;
+            position:absolute;
+            bottom: 0px;
+            right: 0px;
+            display: block;
+            margin-top: 20px;
+            line-height: normal;
+            border: 1px solid transparent;
+            border-radius: 0;
+            text-transform: uppercase;
+            font-size: 12px;
+            text-align: center;
+            letter-spacing: .2em;
+            font-weight: 300;
+            font-style: normal;
+            background-color: transparent;
+            width: 42px;
+          }
+           #newsletter-popup button.popup-submit img {width: 42px;margin-bottom: 8px;}
+
+           @media screen and (max-width: 767px) {
+            #new-popup {
+              width: 500px;
+              height: 215px;
+              top: 50%;
+              left: 50%;
+              transform: translateX(-50%) translateY(-50%);
+            }
+
+            #new-popup .border {
+             width: 373px;
+             height: 429px;
+             top: -57px;
+            }
+          }
+           @media screen and (max-width: 640px) {
+            #new-popup {
+              width: 450px;
+              height: 261px;
+            }            
+           }
+           @media screen and (max-width: 480px) {
+            #new-popup {
+              width: 350px;
+              height: 271px;
+              padding: 0px 20px;
+            }            
+           }
+        </style>
+      </aside>
+    {%- endunless -%}
+  {%- endunless -%}
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Popup",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "show_popup",
+      "label": "Enable",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "show_only_on_index",
+      "label": "Show only on home page",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_only_for_visitors",
+      "label": "Show only for visitors",
+      "info": "Customers who have created an account on your shop won't see it.",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_only_once",
+      "label": "Show only once per customer",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Matilda Mail"
+    },
+    {
+      "type": "richtext",
+      "id": "content1",
+      "label": "Text",
+      "default": "<p>Be in the know...</p>"
+    },
+    {
+      "type": "richtext",
+      "id": "content2",
+      "label": "Text",
+      "default": "<p>Sign up for insider tricks of the trade, recipes, discounts and more...</p>"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_newsletter",
+      "label": "Show newsletter form",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "apparition_delay",
+      "min": 0,
+      "max": 15,
+      "step": 1,
+      "unit": "sec",
+      "label": "Delay until the popup appears",
+      "default": 5
+    }
+  ]
+}
+{% endschema %}

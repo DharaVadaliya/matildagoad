@@ -1,0 +1,28 @@
+{% if request.path contains 'return_prime' %}
+<style>
+
+ .returnprime__app p, .returnprime__app h2,.returnprime__app h3,.returnprime__app h4,
+  .returnprime__app label, .returnprime__app strong, .returnprime__app .title__small, .returnprime__app .title, 
+  .returnprime__app .card__heading, .returnprime__app .text__small, .rpmodal-content h4, .rpmodal-content label,
+  .rpmodal-content .size__item,
+  .rpmodal-content p, .returnprime .search-modal h2, .returnprime .search-modal h3,.returnprime .search-modal p,
+  .returnprime .info__text,.returnprime .sub__title, .returnprime .title, .returnprime .title__small, 
+  .returnprime .text__small,.returnprime .description__text, .success__modal .title, address {
+   color:#531B16 !important;
+   opacity: 1;
+  }
+  
+  .returnprime .info__text{
+opacity: 1 !important;
+}
+
+  .returnprime .customer__search .search__wrapper .form__wrapper form {
+    max-width: 400px !important;
+  margin: 0 auto !important;
+}
+  
+   .Polaris-Spinner--colorHighlight svg, .Polaris-Spinner--colorTeal svg {
+    fill: #fff !important;
+  }
+</style>
+{% endif %}

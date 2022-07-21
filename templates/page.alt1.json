@@ -1,0 +1,94 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "bgcolor": "#ffffff"
+      }
+    },
+    "1645216752c6964209": {
+      "type": "text-with-image",
+      "settings": {
+        "subheading": "",
+        "title": "5 YEAR ANNIVERSARY",
+        "image": "shopify:\/\/shop_images\/1_V3.jpg",
+        "image_position": "right",
+        "content": "<p>The Scallop Lampshade marked the start of our story, laying the foundations for what would become our unique visual language<em>; <\/em>playful but classic, sculptural yet soft. Uninspired by the straight lines and serious silhouettes of lampshades I continually came across as a set designer, I wanted to create something with a more colourful personality, and so our signature was born. <\/p><p>London has been the place I call home since moving here as a 17 year old art student. It’s a city that keeps on giving and continues to inspire me and nearly five years on, we’re feeling nostalgic for the people and places that helped shape our Scallop Lampshade into the modern classic it is today. <\/p><p>A brand is only as brilliant as it’s people, and these are just some of ours. Without them, our story would be very different.<\/p>",
+        "link_text": "",
+        "link_url": ""
+      }
+    },
+    "16453760291ad527b9": {
+      "type": "text-with-image",
+      "settings": {
+        "subheading": "",
+        "title": "THE POST OFFICE",
+        "image": "shopify:\/\/shop_images\/ulWztZfA.jpg",
+        "image_position": "left",
+        "content": "<p>In the early days, I visited the Post Office on Golborne Road at least once daily, sometimes twice. I would shuttle the neatly packaged lampshades from my bursting-at-the-seams car; creating towering piles of parcels behind the counter. From there, our lampshades travelled far and wide, into the homes of wonderful people who would become our community of loyal customers. Every hand plays an important role in bringing Matilda Goad to life; from those that lovingly construct our designs, to the hands that deliver each piece to its new home, wherever it may be.<\/p>",
+        "link_text": "",
+        "link_url": ""
+      }
+    },
+    "164538690640bf0e2d": {
+      "type": "text-with-image",
+      "settings": {
+        "subheading": "",
+        "title": "THE COW",
+        "image": "shopify:\/\/shop_images\/COW.jpg",
+        "image_position": "right",
+        "content": "<p>Being in the cosy embrace of The Cow marks the end of the working week for me. The warm familiarity of walking into our local pub, with its dark wood panelling and accents of olive green fills me with the kind of joy reserved for Friday afternoons. For years, The Cow has been my favourite place for celebration and contemplation over a pint of prawns and a Guinness. A brand becomes a classic when it's able to stand the test of time, and The Cow has done just that.<\/p>",
+        "link_text": "",
+        "link_url": ""
+      }
+    },
+    "1645386978cfec4557": {
+      "type": "text-with-image",
+      "settings": {
+        "subheading": "",
+        "title": "FLOWER SHOP",
+        "image": "shopify:\/\/shop_images\/4_V4.jpg",
+        "image_position": "left",
+        "content": "<p>Our studio is forever brightened by a vase of flowers and we always have bunches on-hand as shoot props, sourced from our local florist, Flowered Corner in Ladbroke Grove. I’m drawn to the seasonal nature of flowers, and love to watch the seasons change through flowers available. They can transform any space; I buy generously and boldly, opting often for a single variety that pops with the Matilda Goad palette.<\/p>",
+        "link_text": "",
+        "link_url": ""
+      }
+    },
+    "16453870465a40544b": {
+      "type": "text-with-image",
+      "settings": {
+        "subheading": "",
+        "title": "BLACK CABS",
+        "image": "shopify:\/\/shop_images\/3_V3.jpg",
+        "image_position": "right",
+        "content": "<p>Phone calls are my thing, but emails, not so much. My words flow more freely when talking as opposed to typing, and where better to bounce ideas than in the back of a black cab, darting through town! Some of my favourite designs began taking shape whilst on the move with my trusty green notebook and pencil in tow, the Scallop Lampshade being one of them. A true British icon, the black cab is an age-old tradition I am resolutely on board with.<\/p>",
+        "link_text": "",
+        "link_url": ""
+      }
+    },
+    "1645387155a4b1c236": {
+      "type": "text-with-image",
+      "settings": {
+        "subheading": "",
+        "title": "HANNAH WEILAND",
+        "image": "shopify:\/\/shop_images\/5_V5.jpg",
+        "image_position": "left",
+        "content": "<p>A fellow mama, great friend and brand owner, Hannah Weiland (of the infamous Shrimps) has been on this journey with me since the very beginning; she has been a source of inspiration and support through the highs, the lows and everything in between. Five years ago, Hannah bought the first Scallop Lampshade we made, which still stands proudly on her nightstand today.<\/p>",
+        "link_text": "",
+        "link_url": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1645216752c6964209",
+    "16453760291ad527b9",
+    "164538690640bf0e2d",
+    "1645386978cfec4557",
+    "16453870465a40544b",
+    "1645387155a4b1c236"
+  ]
+}

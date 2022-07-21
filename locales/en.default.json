@@ -1,0 +1,882 @@
+{
+  "general": {
+    "meta": {
+      "tags": "Tagged \"{{ tags }}\"",
+      "page": "Page {{ page }}"
+    },
+    "accessibility": {
+      "scroll_to_content": "Scroll to content"
+    },
+    "announcement_bar": {
+      "close": "Close"
+    },
+    "popup": {
+      "close": "Close",
+      "email_placeholder": "EMAIL",
+      "first_name_placeholder": "FIRST NAME",
+      "last_name_placeholder": "LAST NAME",
+      "submit": "Subscribe",
+      "success": "You have been subscribed to our newsletter."
+    },
+    "password": {
+      "enter_password": "Enter password",
+      "password_input": "Your password",
+      "password_submit": "Enter",
+      "newsletter_input": "Your email address",
+      "newsletter_submit": "Notify me",
+      "newsletter_success": "Thanks for signing up!",
+      "powered_by_html": "This store will be powered by {{shopify_link}}",
+      "login_title": "Are you the store owner?",
+      "login_link": "Login here"
+    },
+    "pagination": {
+      "previous_page": "Previous page",
+      "next_page": "Next page",
+      "go_to_page": "Navigate to page {{page}}"
+    }
+  },
+  "header": {
+    "navigation": {
+      "title": "Main navigation",
+      "sidebar_title": "Sidebar navigation",
+      "open_sidebar": "Open navigation",
+      "close_sidebar": "Close navigation",
+      "account": "Account",
+      "search": "Search",
+      "cart": "Basket",
+      "open_cart": "Open basket",
+      "close_cart": "Close basket",
+      "skip_to_content": "Skip to content",
+      "currency_selector": "Currency selector"
+    }
+  },
+  "footer": {
+    "general": {
+      "credits_html": " "
+    },
+    "newsletter": {
+      "success": "You have been subscribed to our newsletter.",
+      "input": "ENTER YOUR EMAIL ADDRESS",
+      "submit": "Subscribe"
+    }
+  },
+  "search": {
+    "general": {
+      "title": "Search",
+      "content": "Enter a word to search our products:",
+      "input_placeholder": "Search...",
+      "view_all": "View all",
+      "no_results": "No results could be found",
+      "no_results_with_terms": "No results could be found for {{terms}}",
+      "pages": "Pages",
+      "articles": "Journal",
+      "pages_and_articles": "Pages & Journal",
+      "results_count": {
+        "zero": "Products",
+        "one": "1 result",
+        "other": "{{count}} results"
+      },
+      "results_with_terms_count": {
+        "zero": "0 results for \"{{terms}}\"",
+        "one": "1 result for \"{{terms}}\"",
+        "other": "{{count}} results for \"{{terms}}\""
+      }
+    }
+  },
+  "404": {
+    "general": {
+      "title": "404",
+      "content": "The page you are looking for cannot be found.",
+      "button": "Back to homepage"
+    }
+  },
+  "home_page": {
+    "onboarding": {
+      "vendor_title": "Brand's name",
+      "product_title": "Product's name",
+      "product_description": "A product description can be used to showcase the features and advantages of your product. You can check out Shopify's ecommerce blog for inspiration and advice for properly market your products.",
+      "collection_title": "Collection's name",
+      "article_name": "Post's name",
+      "article_category": "Category",
+      "article_excerpt": "Your store hasn’t published any blog posts yet. A blog can be used to talk about new product launches, tips, or other news you want to share with your customers. You can check out Shopify’s ecommerce blog for inspiration and advice for your own store and blog."
+    },
+    "featured_product": {
+      "view_product": "View product details"
+    },
+    "shop_the_look": {
+      "view_product": "View this product",
+      "view_products": "View products",
+      "popover_title": "Shop the look"
+    },
+    "featured_video": {
+      "play": "Play video"
+    },
+    "newsletter": {
+      "input": "Enter your email",
+      "submit": "Subscribe",
+      "success": "You have been subscribed to our newsletter."
+    }
+  },
+  "collection_list": {
+    "general": {
+      "title": "All collections",
+      "empty_title": "No collections",
+      "empty_button": "Back to homepage"
+    }
+  },
+  "collection": {
+    "general": {
+      "all_products": "All products",
+      "no_products": "No products",
+      "empty": "Collection {{collection_title}} is empty",
+      "empty_button": "Back to homepage",
+      "reset": "Reset filters",
+      "view_products": "View products"
+    },
+    "filter": {
+      "title": "Filter",
+      "show_filter": "Show filters",
+      "all": "Filters",
+      "reset": "Reset",
+      "apply": "Apply"
+    },
+    "sorting": {
+      "title": "Sort",
+      "show_sort": "Show sort by"
+    },
+    "layout": {
+      "show_one_per_row": "Show one product per row",
+      "show_two_per_row": "Show two products per row",
+      "show_four_per_row": "Show four products per row"
+    },
+    "product": {
+      "from_price_html": "From {{min_price}}",
+      "view_product": "View product"
+    }
+  },
+  "customer": {
+    "account": {
+      "title": "My account",
+      "welcome": "Welcome back, {{first_name}}!",
+      "logout": "Logout",
+      "back_to_account": "Back to account",
+      "no_orders_title": "My orders",
+      "no_orders_content": "You haven't placed any orders yet",
+      "no_addresses_title": "No addresses",
+      "no_addresses_content": "No addresses are currently saved",
+      "default_address": "Primary address",
+      "edit_addresses": "Edit addresses",
+      "manage_addresses": "Manage addresses"
+    },
+    "login": {
+      "title": "Login",
+      "description": "Please enter your e-mail and password:",
+      "email": "Email",
+      "password": "Password",
+      "forgot": "Forgot password?",
+      "submit": "Login",
+      "register_label": "Don't have an account?",
+      "register_link": "Create one"
+    },
+    "orders": {
+      "order_number": "Order",
+      "date": "Date",
+      "payment_status": "Payment status",
+      "fulfillment_status": "Fulfillment status",
+      "total": "Total"
+    },
+    "order": {
+      "title": "Order {{order_number}}",
+      "back_to_account": "Back to account",
+      "cancelled_at": "Order cancelled on {{ date }}",
+      "placed_at": "Order placed on {{ date }}",
+      "fulfillment_html": "Your order has been sent. Track the shipment with number {{tracking_number}} or by clicking here: <a href=\"{{tracking_url}}\" class=\"Link Link--underlineNative\" target=\"_blank\">{{tracking_url}}<\/a>",
+      "line_fulfillment_html": "Your product \"{{product_title}}\" has been sent. Track the shipment with number {{tracking_number}} or by clicking here: <a href=\"{{tracking_url}}\" class=\"Link Link--underlineNative\" target=\"_blank\">{{tracking_url}}<\/a>",
+      "product": "Product",
+      "quantity": "Quantity",
+      "line_price": "Total",
+      "subtotal": "Subtotal",
+      "discount": "Discount",
+      "shipping": "Shipping",
+      "tax": "Tax",
+      "total": "Total",
+      "shipping_address": "Shipping address",
+      "billing_address": "Billing address",
+      "no_shipping_address": "No shipping address was required for this order."
+    },
+    "activate_account": {
+      "title": "Activate account",
+      "description": "Please enter a password to create your account:",
+      "password": "Password",
+      "password_confirmation": "Confirm password",
+      "submit": "Activate",
+      "decline": "Decline"
+    },
+    "recover_password": {
+      "title": "Recover password",
+      "description": "Please enter your email:",
+      "email": "Email",
+      "submit": "Recover",
+      "success": "We have sent you an email with instructions to reset your password.",
+      "login_label": "Remember your password?",
+      "login_link": "Back to login"
+    },
+    "reset_password": {
+      "title": "Reset password",
+      "description": "Please enter a new password:",
+      "password": "Password",
+      "password_confirmation": "Confirm password",
+      "submit": "Reset"
+    },
+    "addresses": {
+      "title": "My addresses",
+      "empty": "No addresses were saved yet",
+      "edit": "Edit",
+      "delete": "Delete",
+      "add_address": "Add a new address",
+      "edit_address": "Edit an address",
+      "form_subtitle": "Please fill in the information below:",
+      "default_address_label": "Default address",
+      "address_label": "Address {{position}}",
+      "first_name": "First name",
+      "last_name": "Last name",
+      "company": "Company",
+      "address1": "Address 1",
+      "address2": "Address 2",
+      "city": "City",
+      "country": "Country",
+      "province": "Province",
+      "zip": "Zip code",
+      "phone": "Phone",
+      "set_default": "Set as default address"
+    },
+    "register": {
+      "title": "Register",
+      "description": "Please fill in the information below:",
+      "first_name": "First name",
+      "last_name": "Last name",
+      "email": "Email",
+      "password": "Password",
+      "submit": "Create my account"
+    }
+  },
+  "cart": {
+    "general": {
+      "title": "Basket",
+      "empty": "Your basket is empty",
+      "empty_button": "Shop our products",
+      "add_note": "Add Order Note",
+      "edit_note": "Edit Order Note",
+      "save_note": "Save",
+      "note_placeholder": "How can we help you?",
+      "free_shipping": "You are eligible for free shipping!",
+      "free_shipping_remaining_html": "Spend {{remaining_amount}} more and get free shipping!",
+      "shipping_and_taxes_notice": "Shipping & taxes calculated at checkout",
+      "total": "Total",
+      "currency_notice": "All orders are processed in shop's currency, which is {{shop_currency}}. The content of your cart may be displayed in another currency, at the most current exchange rate.",
+      "checkout": "Checkout"
+    },
+    "items": {
+      "product": "Product",
+      "quantity": "Quantity",
+      "total": "Total",
+      "set_quantity": "Set quantity to {{new_quantity}}",
+      "remove": "Remove"
+    },
+    "shipping_estimator": {
+      "title": "Estimate shipping",
+      "country": "Country",
+      "province": "Province",
+      "zip_code": "Zip code",
+      "estimate": "Estimate",
+      "one_result_title": "1 option available:",
+      "more_results_title": "{{count}} options available:",
+      "no_results_title": "No shipping could be found"
+    }
+  },
+  "product": {
+    "labels": {
+      "coming_soon": "Coming Soon",
+      "sold_out": "Sold Out",
+      "on_sale": "On Sale"
+    },
+    "slideshow": {
+      "close": "Close (Esc)",
+      "previous": "Previous (left arrow)",
+      "next": "Next (right arrow)",
+      "image_loading_error": "This image could not be loaded. Please try to reload the page."
+    },
+    "form": {
+      "variant_label": "Variant",
+      "price": "Price",
+      "quantity": "Quantity",
+      "from_price_html": "From {{min_price}}",
+      "select_model": "Select this model",
+      "size_chart": "Size chart",
+      "inventory_quantity_count": {
+        "one": "{{count}} piece in stock.",
+        "other": "{{count}} pieces in stock"
+      },
+      "low_inventory_quantity_count": {
+        "one": "Only {{count}} piece in stock!",
+        "other": "Only {{count}} pieces in stock!"
+      },
+      "add_to_cart": "Add to basket",
+      "sold_out": "Sold out",
+      "pre_order": "Pre-order",
+      "unavailable": "Unavailable",
+      "view_info": "More information",
+      "view_images": "View images"
+    },
+    "tabs": {
+      "reviews": "Reviews"
+    },
+    "buy_it_with": {
+      "title": "Buy it with"
+    }
+  },
+  "gift_card": {
+    "issued": {
+      "subtext": "Here is your MG& Co gift card...",
+      "illustration_alt": "Gift card illustration",
+      "disabled": "Your gift card is disabled.",
+      "expired": "Your gift card expired on {{ expiry }}.",
+      "expires_on": "Your gift card expires on {{ expiry }}.",
+      "redeem_html": "Use this code at checkout to redeem your gift card, or {{print_link}} this page.",
+      "shop_link": "Start shopping",
+      "print": "print",
+      "initial_amount_html": "Amount: {{initial_amount}}",
+      "remaining_balance_html": "Balance left: {{balance}}",
+      "add_to_apple_wallet": "Add to Apple Wallet"
+    }
+  },
+  "blog": {
+    "general": {
+      "no_articles": "Blog {{blog_title}} is empty",
+      "empty_button": "Back to homepage",
+      "all_tag": "All"
+    },
+    "article": {
+      "read_more": "Read more",
+      "written_by": "Written by {{author}}",
+      "now_reading": "Now reading:",
+      "share": "Share",
+      "previous": "Prev",
+      "next": "Next",
+      "comments_count": {
+        "zero": "{{count}} comments",
+        "one": "{{count}} comment",
+        "other": "{{count}} comments"
+      }
+    },
+    "comments": {
+      "form_title": "Leave a comment",
+      "name_placeholder": "Name",
+      "email_placeholder": "Email",
+      "comment_placeholder": "Content",
+      "approval_notice": "All comments are moderated before being published",
+      "submit": "Post comment",
+      "success": "Your comment has been published.",
+      "success_moderated": "Your comment has been sent. It will be visible once the shop owner has accepted it!"
+    }
+  },
+  "contact": {
+    "form": {
+      "name": "Your name",
+      "email": "Your email",
+      "message": "Your message",
+      "submit": "Send message",
+      "successfully_sent": "Your message has been successfully sent."
+    }
+  },
+  "date_formats": {
+    "month_day_year": "%B %d, %Y",
+    "month_day_year_short": "%m\/%d\/%Y",
+    "month_day_year_time": "%B %d, %Y at %I:%M%p"
+  },
+  "accessibility": {
+    "skip_to_text": "Skip to content",
+    "skip_to_product_info": "Skip to product information",
+    "close": "Close",
+    "unit_price_separator": "per",
+    "vendor": "Vendor:",
+    "error": "Error",
+    "refresh_page": "Choosing a selection results in a full page refresh.",
+    "link_messages": {
+      "new_window": "Opens in a new window.",
+      "external": "Opens external website."
+    },
+    "loading": "Loading...",
+    "total_reviews": "total reviews",
+    "star_reviews_info": "{{ rating_value }} out of {{ rating_max }} stars",
+    "collapsible_content_title": "Collapsible content"
+  },
+  "products": {
+    "product": {
+      "add_to_cart": "Add to cart",
+      "choose_options": "Choose options",
+      "choose_product_options": "Choose options for {{ product_name }}",
+      "description": "Description",
+      "on_sale": "Sale",
+      "product_variants": "Product variants",
+      "media": {
+        "gallery_viewer": "Gallery Viewer",
+        "load_image": "Load image {{ index }} in gallery view",
+        "load_model": "Load 3D Model {{ index }} in gallery view",
+        "load_video": "Play video {{ index }} in gallery view",
+        "image_available": "Image {{ index }} is now available in gallery view",
+        "open_media": "Open media {{ index }} in modal",
+        "play_model": "Play 3D Viewer",
+        "play_video": "Play video"
+      },
+      "quantity": {
+        "label": "Quantity",
+        "input_label": "Quantity for {{ product }}",
+        "increase": "Increase quantity for {{ product }}",
+        "decrease": "Decrease quantity for {{ product }}"
+      },
+      "pickup_availability": {
+        "view_store_info": "View store information",
+        "check_other_stores": "Check availability at other stores",
+        "pick_up_available": "Pickup available",
+        "pick_up_available_at_html": "Pickup available at <span class=\"color-foreground\">{{ location_name }}<\/span>",
+        "pick_up_unavailable_at_html": "Pickup currently unavailable at <span class=\"color-foreground\">{{ location_name }}<\/span>",
+        "unavailable": "Couldn't load pickup availability",
+        "refresh": "Refresh"
+      },
+      "price": {
+        "from_price_html": "From {{ price }}",
+        "regular_price": "Regular price",
+        "sale_price": "Sale price",
+        "unit_price": "Unit price"
+      },
+      "share": "Share this product",
+      "sold_out": "Sold out",
+      "unavailable": "Unavailable",
+      "vendor": "Vendor",
+      "video_exit_message": "{{ title }} opens full screen video in same window.",
+      "view_full_details": "View full details",
+      "xr_button": "View in your space",
+      "xr_button_label": "View in your space, loads item in augmented reality window",
+      "include_taxes": "Tax included.",
+      "shipping_policy_html": "<a href=\"{{ link }}\">Shipping<\/a> calculated at checkout."
+    },
+    "modal": {
+      "label": "Media gallery"
+    },
+    "facets": {
+      "apply": "Apply",
+      "clear": "Clear",
+      "clear_all": "Remove all",
+      "from": "From",
+      "filter_and_sort": "Filter and sort",
+      "filter_by_label": "Filter:",
+      "filter_button": "Filter",
+      "filters_selected": {
+        "one": "{{ count }} selected",
+        "other": "{{ count }} selected"
+      },
+      "filter_selected_accessibility": "{{ type }} ({{ count }} filters selected)",
+      "show_more": "Show more",
+      "show_less": "Show less",
+      "max_price": "The highest price is {{ price }}",
+      "product_count": {
+        "one": "{{ product_count }} of {{ count }} product",
+        "other": "{{ product_count }} of {{ count }} products"
+      },
+      "product_count_simple": {
+        "one": "{{ count }} product",
+        "other": "{{ count }} products"
+      },
+      "reset": "Reset",
+      "sort_button": "Sort",
+      "sort_by_label": "Sort by:",
+      "to": "To",
+      "clear_filter": "Remove filter"
+    }
+  },
+  "shopify": {
+    "checkout": {
+      "marketing": {
+        "accept_marketing_checkbox_label": "Add me to the Dispatch email"
+      }
+    }
+  },
+  "customer_accounts": {
+    "navigation_and_structure": {
+      "account_menu": {
+        "hide_accessibility_label": "",
+        "label": "",
+        "show_accessibility_label": ""
+      },
+      "action_menu_accessibility_label": "",
+      "close_menu_accessibility_label": "",
+      "contact_email_subject": "",
+      "contact_link": "",
+      "delete_confirmation": {
+        "cancel": "",
+        "delete": ""
+      },
+      "dismiss_toast": "",
+      "document_title": "",
+      "generic_accessibility_label": "",
+      "go_to_store_link": "",
+      "loading_message": "",
+      "log_out_link": "",
+      "login_prompt": {
+        "continue": "",
+        "privacy": "",
+        "title": ""
+      },
+      "logout_overlay_label": "",
+      "nav_label_accessibility_label": "",
+      "navigation_accessibility_message": "",
+      "open_menu_accessibility_label": "",
+      "orders_link_label": "",
+      "shop_logo_accessibility_label": ""
+    },
+    "account_information": {
+      "loading_accessibility_message": "",
+      "loading_finished_accessibility_message": "",
+      "profile_card": {
+        "cancel": "",
+        "cancel_accessibility_label": "",
+        "edit": "",
+        "edit_accessibility_label": "",
+        "email_help_text": "",
+        "first_name": "",
+        "last_name": "",
+        "phone_number_help_text": "",
+        "save": "",
+        "save_accessibility_label": "",
+        "title": ""
+      },
+      "profile_update_confirmation_message": "",
+      "title": ""
+    },
+    "orders": {
+      "list_layout_accessibility_label": "",
+      "list_title": "",
+      "order_list": {
+        "column_headers": {
+          "delivery_date": "",
+          "order_date": "",
+          "order_number": "",
+          "status": "",
+          "total": ""
+        },
+        "delivered": "",
+        "empty_state_order_source_description": "",
+        "empty_state_subtitle": "",
+        "empty_state_title": "",
+        "estimated": "",
+        "estimated_delivery": "",
+        "one_images_accessibility_label": "",
+        "two_images_accessibility_label": "",
+        "three_images_accessibility_label": "",
+        "four_images_accessibility_label": "",
+        "items": {
+          "one": "",
+          "other": ""
+        },
+        "list_view": "",
+        "multiple_shipments": "",
+        "no_filtered_results_description": "",
+        "no_filtered_results_title": "",
+        "order_link": "",
+        "order_number": "",
+        "orders_title": "",
+        "pagination": {
+          "nav_accessibility_label": "",
+          "next": "",
+          "next_accessibility_label": "",
+          "previous": "",
+          "previous_accessibility_label": ""
+        },
+        "sort_by": "",
+        "sort_hide_options_accessibility_label": "",
+        "sort_show_options_accessibility_label": "",
+        "sort_title": "",
+        "sort": {
+          "date": {
+            "newest": "",
+            "newest_accessibility_label": "",
+            "oldest": "",
+            "oldest_accessibility_label": ""
+          },
+          "location": {
+            "ascending": "",
+            "ascending_accessibility_label": "",
+            "descending": "",
+            "descending_accessibility_label": ""
+          },
+          "order_number": {
+            "ascending": "",
+            "ascending_accessibility_label": "",
+            "descending": "",
+            "descending_accessibility_label": ""
+          },
+          "order_total": {
+            "ascending": "",
+            "ascending_accessibility_label": "",
+            "descending": "",
+            "descending_accessibility_label": ""
+          }
+        },
+        "table_view": ""
+      },
+      "order_status": {
+        "canceled_description": "",
+        "canceled_label": "",
+        "canceled_title": "",
+        "come_back": "",
+        "company_tracking_number": "",
+        "confirmed_label": "",
+        "confirmed_title": "",
+        "delivered_description": "",
+        "delivered_label": "",
+        "delivered_title": "",
+        "estimated_delivery": "",
+        "in_review_description": "",
+        "in_review_label": "",
+        "in_review_title": "",
+        "no_tracking_number": "",
+        "on_its_way_label": "",
+        "on_its_way_title": "",
+        "out_for_delivery_label": "",
+        "out_for_delivery_title": "",
+        "resume_tracking": "",
+        "submitted_label": "",
+        "track_shipment": ""
+      },
+      "status_mark_as_delivered": "",
+      "status_title": ""
+    },
+    "order_details": {
+      "addresses_section_title": "",
+      "billing_address": "",
+      "card_ending_with": "",
+      "contact": "",
+      "hide_items": "",
+      "loading": "",
+      "loading_finished_accessibility_message": "",
+      "location": "",
+      "payment": {
+        "status_in_review": "",
+        "status_unpaid": "",
+        "title": ""
+      },
+      "shipping": {
+        "address": "",
+        "address_map_marker": "",
+        "method": "",
+        "summary": ""
+      },
+      "show_items": "",
+      "subtitle": "",
+      "subtotal": "",
+      "summary_list_title_accessibility_label": "",
+      "summary_title": "",
+      "summary_totals_title_accessibility_label": "",
+      "taxes": "",
+      "title": "",
+      "total": "",
+      "unit_price": ""
+    },
+    "addresses": {
+      "add_button": "",
+      "address_deleted_notification": "",
+      "cancel_adding_address_accessibility_label": "",
+      "cancel_deletion_button": "",
+      "cancel_deletion_button_accessibility_label": "",
+      "default_address": {
+        "title": "",
+        "title_accessibility_label": ""
+      },
+      "delete_button": "",
+      "delete_button_accessibility_label": "",
+      "delete_confirmation_button": "",
+      "delete_confirmation_button_accessibility_label": "",
+      "delete_confirmation_message": "",
+      "edit_button": "",
+      "edit_button_accessibility_label": "",
+      "edit_section_accessibility_label": "",
+      "loading_accessibility_message": "",
+      "loading_addresses_accessibility_message": "",
+      "loading_billing_accessibility_message": "",
+      "loading_finished_accessibility_message": "",
+      "loading_shipping_accessibility_message": "",
+      "pagination": {
+        "nav_accessibility_label": "",
+        "next": "",
+        "previous": ""
+      },
+      "save_new_address_accessibility_label": "",
+      "title": ""
+    },
+    "address_form": {
+      "auto_complete_close_accessibility_label": "",
+      "auto_complete_title": "",
+      "billing_address": "",
+      "cancel": "",
+      "cancel_accessibility_label": "",
+      "creation_success_notification": "",
+      "default_address": "",
+      "default_address_creation_success_notification": "",
+      "default_address_update_success_notification": "",
+      "loading_add_form_accessibility_message": "",
+      "loading_edit_form_accessibility_message": "",
+      "loading_finished_accessibility_message": "",
+      "save": "",
+      "save_accessibility_label": "",
+      "section_title_accessibility_label": "",
+      "update_success_notification": ""
+    },
+    "B2B": {
+      "account_information": {
+        "company_card_name_label": "",
+        "company_card_section_accessibility_label": ""
+      },
+      "locations": {
+        "contact_email": "",
+        "contact_list_title": "",
+        "contact_name": "",
+        "contact_permissions": "",
+        "contact_phone_number": "",
+        "location_picker_label": "",
+        "net_payment_terms_description": "",
+        "no_addresses": "",
+        "payment_details_title": "",
+        "payment_terms": "",
+        "permissions_label": "",
+        "permissions_title": "",
+        "section_title": "",
+        "shipping_address_required": "",
+        "tax_details_title": "",
+        "tax_id": ""
+      },
+      "location_selection": {
+        "continue_to_store": "",
+        "description": "",
+        "list_accessibility_label": "",
+        "list_item_accessibility_label": "",
+        "list_item_without_address_accessibility_label": "",
+        "list_loading_accessibility_message": "",
+        "list_loading_address_accessibility_message": "",
+        "list_loading_finished_accessibility_message": "",
+        "loading_store_accessibility_message": "",
+        "no_location_title": "",
+        "no_location_description": "",
+        "selection_cancel_button": "",
+        "selection_confirmation_button": "",
+        "title": ""
+      },
+      "addresses": {
+        "add_billing_address_button": "",
+        "add_billing_address_section_accessibility_label": "",
+        "add_shipping_address_button": "",
+        "add_shipping_address_section_accessibility_label": "",
+        "billing_address_card_title": "",
+        "cancel_adding_billing_address_accessibility_label": "",
+        "cancel_adding_shipping_address_accessibility_label": "",
+        "save_new_billing_address_accessibility_label": "",
+        "save_new_shipping_address_accessibility_label": "",
+        "shipping_address_card_title": ""
+      },
+      "orders": {
+        "draft_order_list": {
+          "hide_all": "",
+          "show_all": "",
+          "hide_all_accessibility_label": "",
+          "show_all_accessibility_label": "",
+          "show_less": "",
+          "show_more": "",
+          "title": "",
+          "pagination": {
+            "nav_accessibility_label": ""
+          }
+        },
+        "order_list_column_headers_location": ""
+      },
+      "draft_order_details": {
+        "draft_order_subtitle": "",
+        "loading": "",
+        "loading_finished_accessibility_message": "",
+        "payment_status": {
+          "confirmed": {
+            "overdue": {
+              "one": "",
+              "other": ""
+            },
+            "soon": {
+              "one": "",
+              "other": ""
+            },
+            "title": "",
+            "today": ""
+          },
+          "draft": {
+            "description": "",
+            "title": ""
+          },
+          "notification": "",
+          "paid": {
+            "description": "",
+            "title": ""
+          },
+          "pay_now": "",
+          "title": ""
+        },
+        "subtitle": "",
+        "title": ""
+      }
+    },
+    "errors": {
+      "address_deletion_error": {
+        "description": ""
+      },
+      "addresses_loading_issue": {
+        "description": ""
+      },
+      "banner_title": {
+        "one": "",
+        "other": ""
+      },
+      "failed_address_creation": {
+        "description": ""
+      },
+      "failed_address_update": {
+        "description": ""
+      },
+      "no_access": {
+        "back_to_authentication_link": "",
+        "description": "",
+        "title": ""
+      },
+      "no_access_to_locations": {
+        "description": ""
+      },
+      "not_found": {
+        "description": "",
+        "title": ""
+      },
+      "order_not_found": {
+        "description": "",
+        "title": ""
+      },
+      "profile_update_error": {
+        "description": ""
+      },
+      "retry_action_label": ""
+    },
+    "shop_policies": {
+      "legal_notice": "",
+      "privacy_policy": "",
+      "refund_policy": "",
+      "shipping_policy": "",
+      "subscription_policy": "",
+      "terms_of_sale": "",
+      "terms_of_service": ""
+    }
+  }
+}

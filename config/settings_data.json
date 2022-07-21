@@ -1,0 +1,1921 @@
+{
+  "current": {
+    "heading_color": "#531c16",
+    "text_color": "#531c16",
+    "text_light_color": "#531c16",
+    "link_color": "#531c16",
+    "background": "#f1e4e4",
+    "light_background": "#ffffff",
+    "product_on_sale_color": "#8e2820",
+    "button_background": "#ffffff",
+    "button_text_color": "#531c16",
+    "header_background": "#f1e4e4",
+    "header_heading_color": "#531c16",
+    "header_light_color": "#531c16",
+    "footer_background": "#f1e4e4",
+    "footer_heading_color": "#531c16",
+    "footer_text_color": "#531c16",
+    "navigation_background": "#ffffff",
+    "navigation_text_color": "#14234c",
+    "newsletter_popup_background": "#ffffff",
+    "newsletter_popup_text_color": "#1c1b1b",
+    "secondary_elements_background": "#ffffff",
+    "secondary_elements_text_color": "#000000",
+    "heading_font": "work_sans_n3",
+    "heading_size": "large",
+    "uppercase_heading": true,
+    "text_font": "work_sans_n3",
+    "base_text_font_size": 14,
+    "currency_conversion_enabled": true,
+    "currency_conversion_round_amounts": true,
+    "currency_conversion_supported_currencies": "USD CAD EUR GBP",
+    "currency_conversion_money_format": "money_format",
+    "show_page_transition": false,
+    "show_button_transition": false,
+    "show_image_zooming": false,
+    "show_element_staggering": true,
+    "search_mode": "product,article",
+    "size_chart_page": "",
+    "product_show_price_on_hover": false,
+    "product_show_secondary_image": false,
+    "product_info_alignment": "center",
+    "product_image_size": "natural",
+    "product_list_horizontal_spacing": "small",
+    "product_list_vertical_spacing": "small",
+    "cart_type": "drawer",
+    "cart_enable_notes": true,
+    "cart_show_free_shipping_threshold": false,
+    "cart_free_shipping_threshold": "",
+    "share_image": "",
+    "social_facebook": "https:\/\/www.facebook.com\/matildagoad\/",
+    "social_twitter": "",
+    "social_google_plus": "",
+    "social_pinterest": "https:\/\/www.pinterest.co.uk\/matildagoad\/",
+    "social_instagram": "https:\/\/www.instagram.com\/matildagoad\/?hl=en",
+    "social_vimeo": "",
+    "social_tumblr": "",
+    "social_youtube": "",
+    "social_linkedin": "",
+    "social_snapchat": "",
+    "social_fancy": "",
+    "favicon": "shopify:\/\/shop_images\/FAVICON_7b03b090-a889-44ab-a9f6-88480d08043e.png",
+    "checkout_header_image": "",
+    "checkout_logo_image": "shopify:\/\/shop_images\/Logo.png",
+    "checkout_logo_position": "center",
+    "checkout_logo_size": "large",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#f1e4e4",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#f2f2f2",
+    "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_accent_color": "#531c16",
+    "checkout_button_color": "#531c16",
+    "checkout_error_color": "#e32c2b",
+    "sections": {
+      "sidebar-menu": {
+        "type": "sidebar-menu",
+        "settings": {
+          "primary_menu": "main-menu",
+          "secondary_menu": "",
+          "show_social_media": true
+        }
+      },
+      "announcement": {
+        "type": "announcement",
+        "settings": {
+          "enable_bar": false,
+          "home_page_only": false,
+          "background": "#f1e4e4",
+          "text_color": "#572a28",
+          "content": "PLEASE NOTE: DUE TO THE BANK HOLIDAY, ALL ORDERS PLACED AFTER 2PM ON 1st JUNE WILL BE SHIPPED ON MONDAY 6th JUNE",
+          "link": ""
+        }
+      },
+      "header": {
+        "type": "header",
+        "blocks": {
+          "1550068536474": {
+            "type": "mega_menu",
+            "settings": {
+              "navigation_mega_menu": "STORE",
+              "push_1_image": "shopify:\/\/shop_images\/Tabletop_Landscape.jpg",
+              "videofile": "",
+              "videoloop": "no",
+              "push_1_heading": "TABLETOP",
+              "push_1_subheading": "",
+              "push_1_url": "shopify:\/\/collections\/tabletop",
+              "videofile2": "",
+              "videoloop2": "no",
+              "push_2_heading": "Table Top",
+              "push_2_subheading": "Bring a rainbow to your table with our table accessories",
+              "push_2_url": "shopify:\/\/collections\/tabletop"
+            }
+          }
+        },
+        "block_order": [
+          "1550068536474"
+        ],
+        "settings": {
+          "use_sticky_header": true,
+          "logo": "shopify:\/\/shop_images\/Logo.png",
+          "logo_max_width": 280,
+          "mobile_logo_max_width": 200,
+          "navigation_menu": "main-menu",
+          "navigation_style": "center",
+          "enable_transparent_header": false,
+          "enable_transparent_header_collection": false,
+          "show_transparent_header_border": false,
+          "transparent_text_color": "#14234c"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-1": {
+            "type": "links",
+            "settings": {
+              "menu": "footer"
+            }
+          },
+          "footer-2": {
+            "type": "newsletter",
+            "settings": {
+              "title": "Sign up to The Dispatch",
+              "content": "<p> ...and fill the spaces that objects can’t<\/p>"
+            }
+          },
+          "1551888312574": {
+            "type": "text",
+            "settings": {
+              "title": "BE IN THE KNOW",
+              "content": "<p><a href=\"https:\/\/www.instagram.com\/matildagoad\/?hl=en\" target=\"_blank\" title=\"https:\/\/www.instagram.com\/matildagoad\/?hl=en\">Instagram<br\/><\/a><a href=\"https:\/\/www.facebook.com\/matildagoad\/\" target=\"_blank\" title=\"https:\/\/www.facebook.com\/matildagoad\/\">Facebook<br\/><\/a><a href=\"https:\/\/www.pinterest.co.uk\/matildagoad\/\" target=\"_blank\" title=\"https:\/\/www.pinterest.co.uk\/matildagoad\/\">Pinterest<\/a><\/p><p><\/p><p><\/p>",
+              "show_social_media": false
+            }
+          }
+        },
+        "block_order": [
+          "footer-1",
+          "footer-2",
+          "1551888312574"
+        ],
+        "settings": {
+          "show_payment_methods": false
+        }
+      },
+      "collection-list": {
+        "type": "collection-list",
+        "disabled": true,
+        "blocks": {
+          "collection-0": {
+            "type": "collection",
+            "settings": {
+              "collection": "tabletop",
+              "image_alignment": "center center",
+              "content_position": "middleCenter",
+              "subheading": "",
+              "title": "TABLETOP",
+              "button_text": "SHOP",
+              "button_link": "shopify:\/\/collections\/tabletop",
+              "apply_overlay": false
+            }
+          },
+          "collection-1": {
+            "type": "collection",
+            "settings": {
+              "collection": "lighting",
+              "image_alignment": "center center",
+              "content_position": "middleCenter",
+              "subheading": "LIGHTING",
+              "title": "",
+              "button_text": "SHOP",
+              "button_link": "shopify:\/\/collections\/lighting",
+              "apply_overlay": false
+            }
+          },
+          "a4bf164e-7071-48be-a759-a58daad8a8ea": {
+            "type": "collection",
+            "settings": {
+              "collection": "bar",
+              "image_alignment": "center center",
+              "content_position": "middleCenter",
+              "subheading": "BAR",
+              "title": "",
+              "button_text": "View products",
+              "button_link": "shopify:\/\/collections\/bar",
+              "apply_overlay": false
+            }
+          }
+        },
+        "block_order": [
+          "collection-0",
+          "collection-1",
+          "a4bf164e-7071-48be-a759-a58daad8a8ea"
+        ],
+        "settings": {
+          "image_size": "small",
+          "add_spacing": true,
+          "expand_collection": true,
+          "text_color": "#ffffff",
+          "button_color": "#363636"
+        }
+      },
+      "blog-posts": {
+        "type": "blog-posts",
+        "disabled": true,
+        "blocks": {
+          "blog-0": {
+            "type": "blog",
+            "settings": {
+              "blog": "news"
+            }
+          }
+        },
+        "block_order": [
+          "blog-0"
+        ],
+        "settings": {
+          "subheading": "",
+          "title": "PRESS",
+          "show_category": false,
+          "button_link": "",
+          "button_text": ""
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "show_collection_info": false,
+          "show_collection_image": false,
+          "apply_overlay": false,
+          "show_color_swatch": false,
+          "show_vendor": false,
+          "collection_image_size": "small",
+          "show_sort_by": false,
+          "show_layout_switch": false,
+          "toolbar_position": "top",
+          "filter_position": "sidebar",
+          "filter_mode": "group",
+          "show_filter_color_swatch": true,
+          "filter_menu": "",
+          "grid_items_per_page": 48,
+          "grid_mobile_items_per_row": "2",
+          "grid_desktop_items_per_row": 4
+        }
+      },
+      "recently-viewed-products": {
+        "type": "recently-viewed-products",
+        "settings": {
+          "show_section": true,
+          "title": "Recently viewed",
+          "show_product_info": true,
+          "show_vendor": false,
+          "show_color_swatch": false
+        }
+      },
+      "collection-footer": {
+        "type": "collection-footer",
+        "settings": {
+          "show_section": false,
+          "text_color": "#ffffff",
+          "apply_overlay": true,
+          "title": "Our story",
+          "content": "<p>Add your own custom content to explain your processes...<\/p>"
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "show_share_buttons": true,
+          "show_vendor": false,
+          "description_below_add_to_cart": false,
+          "show_color_swatch": false,
+          "show_color_carousel": true,
+          "show_size_swatch": false,
+          "show_quantity_selector": true,
+          "show_inventory_quantity": false,
+          "inventory_quantity_threshold": 34,
+          "show_price_in_button": false,
+          "show_payment_button": true,
+          "image_size": "small",
+          "stack_images": false,
+          "show_thumbnails": false,
+          "enable_image_zoom": true,
+          "tab_page_1_handle": "",
+          "tab_page_2_handle": "",
+          "reviews_enabled": false,
+          "featured_image_size": "large"
+        }
+      },
+      "related-products": {
+        "type": "related-products",
+        "settings": {
+          "show_section": false,
+          "title": "Recommended for you",
+          "show_product_info": true,
+          "show_vendor": false,
+          "show_color_swatch": false
+        }
+      },
+      "popup": {
+        "type": "popup",
+        "settings": {
+          "show_popup": true,
+          "show_only_on_index": true,
+          "show_only_for_visitors": true,
+          "show_only_once": true,
+          "title": "THE DISPATCH",
+          "content1": "<p>SIGN UP TO THE DISPATCH<\/p>",
+          "content2": "<p>...and fill the spaces that objects can’t<\/p>",
+          "show_newsletter": true,
+          "apparition_delay": 12
+        }
+      },
+      "1550495224662": {
+        "type": "instagram-feed",
+        "disabled": true,
+        "settings": {
+          "subheading": "INSTAGRAM",
+          "title": "@matildagoad",
+          "access_token": "271216049.cf70533.b01a7b28abe24c58b82abad5e96dead2",
+          "image_count": 20,
+          "button_text": "",
+          "button_url": ""
+        }
+      },
+      "article-template": {
+        "type": "article-template",
+        "settings": {
+          "show_article_image": true,
+          "show_date": false,
+          "show_category": false,
+          "show_author": false,
+          "show_share_buttons": true
+        }
+      },
+      "shop-now": {
+        "type": "shop-now",
+        "settings": {
+          "show_section": false,
+          "title": "Shop now",
+          "collection": "",
+          "grid_items_count": 6,
+          "show_product_info": true,
+          "show_vendor": false,
+          "show_color_swatch": false
+        }
+      },
+      "list-collections-template": {
+        "type": "list-collections-template",
+        "settings": {
+          "collections_to_show": "all",
+          "image_size": "normal",
+          "add_spacing": true,
+          "expand_collection": false,
+          "apply_overlay": true,
+          "text_color": "#ffffff",
+          "button_color": "#363636"
+        }
+      },
+      "cart-template": {
+        "type": "cart-template",
+        "settings": {
+          "show_shipping_estimator": true,
+          "shipping_estimator_default_country": "United States"
+        }
+      },
+      "1574801103148": {
+        "type": "image-with-text-block-border",
+        "disabled": true,
+        "settings": {
+          "background": "#f1e4e4",
+          "text_color": "#14234c",
+          "block_size": "normal",
+          "title": "Our Black Friday Promise",
+          "content": "<p>10% of all orders placed this weekend will be donated to the Home for Christmas Missing People Appeal. Thank you for supporting, MG x<\/p>",
+          "button_label": "",
+          "button_link": "",
+          "show_parallax": true,
+          "border": true
+        }
+      },
+      "slideshow": {
+        "type": "slideshow",
+        "blocks": {
+          "6f42f715-1b93-4400-9458-6f18d7e6fd44": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Launch_Banner.jpg",
+              "mobile_image": "shopify:\/\/shop_images\/MOBILE_IMAGE.jpg",
+              "videofile": "",
+              "mobilevideofile": "",
+              "videoloop": "no",
+              "apply_overlay": false,
+              "content_position": "bottomLeft",
+              "subheading": "",
+              "title": "",
+              "button_1_text": "",
+              "button_1_link": "shopify:\/\/collections\/bathroom",
+              "button_2_text": "",
+              "button_2_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "6f42f715-1b93-4400-9458-6f18d7e6fd44"
+        ],
+        "settings": {
+          "show_fullscreen": false,
+          "show_arrow": false,
+          "autoplay": false,
+          "cycle_speed": 8,
+          "height": 70,
+          "text_color": "#ffffff",
+          "button_color": "#363636"
+        }
+      },
+      "1582634539171": {
+        "type": "custom-html",
+        "disabled": true,
+        "settings": {
+          "subheading": "",
+          "title": "INSTAGRAM",
+          "html": "<div id=\"insta-feed\"><\/div>"
+        }
+      },
+      "16195153815277fe61": {
+        "type": "featured-collections",
+        "blocks": {
+          "1619515381a3c1ffae-0": {
+            "type": "collection",
+            "settings": {
+              "collection": "new-in",
+              "title": "",
+              "grid_items_count": 8,
+              "button_text": ""
+            }
+          }
+        },
+        "block_order": [
+          "1619515381a3c1ffae-0"
+        ],
+        "settings": {
+          "title": "",
+          "layout_mode": "carousel",
+          "show_product_info": false,
+          "show_vendor": false,
+          "show_color_swatch": false,
+          "grid_mobile_items_per_row": "2",
+          "grid_desktop_items_per_row": 4
+        }
+      },
+      "1637235641ecf53f8f": {
+        "type": "custom-html",
+        "disabled": true,
+        "settings": {
+          "subheading": "Original homeware",
+          "title": "EST. TWENTY SIXTEEN",
+          "html": "<div class=\"row-fluid original-homeware\">\n<div class=\"span4\">\n<img class=\"Slideshow__Image hide-no-js lazyautosizes Image--lazyLoaded\" data-optimumx=\"1.2\" data-widths=\"[400, 600, 800, 1000, 1200, 1400, 1600, 1800]\" data-sizes=\"auto\" alt=\"\" data-srcset=\"\/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/matilda-3_400x.png?v=1637245511 400w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/matilda-3_600x.png?v=1637245511 600w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/matilda-3_800x.png?v=1637245511 800w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/matilda-3_1000x.png?v=1637245511 1000w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/matilda-3_1200x.png?v=1637245511 1200w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/matilda-3_1400x.png?v=1637245511 1400w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/matilda-3_1600x.png?v=1637245511 1600w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/matilda-3_1800x.png?v=1637245511 1800w\" sizes=\"1905px\" srcset=\"\/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/matilda-3_400x.png?v=1637245511 400w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/matilda-3_600x.png?v=1637245511 600w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/matilda-3_800x.png?v=1637245511 800w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/matilda-3_1000x.png?v=1637245511 1000w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/matilda-3_1200x.png?v=1637245511 1200w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/matilda-3_1400x.png?v=1637245511 1400w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/matilda-3_1600x.png?v=1637245511 1600w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/matilda-3_1800x.png?v=1637245511 1800w\" style=\"opacity: 1;\">\n<p>LIGHTING \/ Scallop lampshade<\/p>\n<p><\/p>\n<\/div>\n<div class=\"span4\">\n<img class=\"Slideshow__Image hide-no-js lazyautosizes Image--lazyLoaded\" data-optimumx=\"1.2\" data-widths=\"[400, 600, 800, 1000, 1200, 1400, 1600, 1800]\" data-sizes=\"auto\" alt=\"\" data-srcset=\"\/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/Ice-Bucket_600x_1_A_400x.gif?v=1637575801 400w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/Ice-Bucket_600x_1_A_600x.gif?v=1637575801 600w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/Ice-Bucket_600x_1_A_800x.gif?v=1637575801 800w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/Ice-Bucket_600x_1_A_1000x.gif?v=1637575801 1000w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/Ice-Bucket_600x_1_A_1200x.gif?v=1637575801 1200w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/Ice-Bucket_600x_1_A_1400x.gif?v=1637575801 1400w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/Ice-Bucket_600x_1_A_1600x.gif?v=1637575801 1600w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/Ice-Bucket_600x_1_A_1800x.gif?v=1637575801 1800w\" sizes=\"1400px\" srcset=\"\/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/Ice-Bucket_600x_1_A_400x.gif?v=1637575801 400w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/Ice-Bucket_600x_1_A_600x.gif?v=1637575801 600w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/Ice-Bucket_600x_1_A_800x.gif?v=1637575801 800w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/Ice-Bucket_600x_1_A_1000x.gif?v=1637575801 1000w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/Ice-Bucket_600x_1_A_1200x.gif?v=1637575801 1200w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/Ice-Bucket_600x_1_A_1400x.gif?v=1637575801 1400w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/Ice-Bucket_600x_1_A_1600x.gif?v=1637575801 1600w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/Ice-Bucket_600x_1_A_1800x.gif?v=1637575801 1800w\" style=\"opacity: 1;\">\n<p>BAR \/ Rainbow lacquered iced bucket<\/p>\n<\/div>\n<div class=\"span4\">\n<img class=\"Slideshow__Image hide-no-js lazyautosizes Image--lazyLoaded\" data-optimumx=\"1.2\" data-widths=\"[400, 600, 800, 1000, 1200, 1400, 1600, 1800]\" data-sizes=\"auto\" alt=\"\" data-srcset=\"\/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/2020_MatildaGoad__5350_1000xB_400x.png?v=1637245843 400w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/2020_MatildaGoad__5350_1000xB_600x.png?v=1637245843 600w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/2020_MatildaGoad__5350_1000xB_800x.png?v=1637245843 800w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/2020_MatildaGoad__5350_1000xB_1000x.png?v=1637245843 1000w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/2020_MatildaGoad__5350_1000xB_1200x.png?v=1637245843 1200w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/2020_MatildaGoad__5350_1000xB_1400x.png?v=1637245843 1400w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/2020_MatildaGoad__5350_1000xB_1600x.png?v=1637245843 1600w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/2020_MatildaGoad__5350_1000xB_1800x.png?v=1637245843 1800w\" sizes=\"1905px\" srcset=\"\/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/2020_MatildaGoad__5350_1000xB_400x.png?v=1637245843 400w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/2020_MatildaGoad__5350_1000xB_600x.png?v=1637245843 600w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/2020_MatildaGoad__5350_1000xB_800x.png?v=1637245843 800w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/2020_MatildaGoad__5350_1000xB_1000x.png?v=1637245843 1000w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/2020_MatildaGoad__5350_1000xB_1200x.png?v=1637245843 1200w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/2020_MatildaGoad__5350_1000xB_1400x.png?v=1637245843 1400w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/2020_MatildaGoad__5350_1000xB_1600x.png?v=1637245843 1600w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/2020_MatildaGoad__5350_1000xB_1800x.png?v=1637245843 1800w\" style=\"opacity: 1;\">\n<p>PLANTERS \/ Trellis planter<\/p>\n<\/div>\n<\/div>"
+        }
+      },
+      "1637236229ae8dd7df": {
+        "type": "custom-html",
+        "disabled": true,
+        "settings": {
+          "subheading": "",
+          "title": "",
+          "html": "<div class=\"row-fluid original-homeware part2\">\n<div class=\"span4\">\n<img class=\"Slideshow__Image hide-no-js lazyautosizes Image--lazyLoaded\" data-optimumx=\"1.2\" data-widths=\"[400, 600, 800, 1000, 1200, 1400, 1600, 1800]\" data-sizes=\"auto\" alt=\"\" data-srcset=\"\/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/2020_MatildaGoad__5350_1000xB_400x.png?v=1637245843 400w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/2020_MatildaGoad__5350_1000xB_600x.png?v=1637245843 600w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/2020_MatildaGoad__5350_1000xB_800x.png?v=1637245843 800w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/2020_MatildaGoad__5350_1000xB_1000x.png?v=1637245843 1000w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/2020_MatildaGoad__5350_1000xB_1200x.png?v=1637245843 1200w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/2020_MatildaGoad__5350_1000xB_1400x.png?v=1637245843 1400w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/2020_MatildaGoad__5350_1000xB_1600x.png?v=1637245843 1600w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/2020_MatildaGoad__5350_1000xB_1800x.png?v=1637245843 1800w\" sizes=\"1905px\" srcset=\"\/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/2020_MatildaGoad__5350_1000xB_400x.png?v=1637245843 400w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/2020_MatildaGoad__5350_1000xB_600x.png?v=1637245843 600w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/2020_MatildaGoad__5350_1000xB_800x.png?v=1637245843 800w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/2020_MatildaGoad__5350_1000xB_1000x.png?v=1637245843 1000w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/2020_MatildaGoad__5350_1000xB_1200x.png?v=1637245843 1200w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/2020_MatildaGoad__5350_1000xB_1400x.png?v=1637245843 1400w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/2020_MatildaGoad__5350_1000xB_1600x.png?v=1637245843 1600w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/2020_MatildaGoad__5350_1000xB_1800x.png?v=1637245843 1800w\" style=\"opacity: 1;\">\n<p>TABLETOP \/ Rainbow cutlery set<\/p>\n<p><\/p>\n<\/div>\n<div class=\"span8\">\n<img class=\"Slideshow__Image hide-no-js lazyautosizes Image--lazyLoaded\" data-optimumx=\"1.2\" data-widths=\"[400, 600, 800, 1000, 1200, 1400, 1600, 1800]\" data-sizes=\"auto\" alt=\"\" data-srcset=\"\/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/matildagoad_10820_118_400x.jpg?v=1637245188 400w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/matildagoad_10820_118_600x.jpg?v=1637245188 600w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/matildagoad_10820_118_800x.jpg?v=1637245188 800w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/matildagoad_10820_118_1000x.jpg?v=1637245188 1000w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/matildagoad_10820_118_1200x.jpg?v=1637245188 1200w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/matildagoad_10820_118_1400x.jpg?v=1637245188 1400w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/matildagoad_10820_118_1600x.jpg?v=1637245188 1600w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/matildagoad_10820_118_1800x.jpg?v=1637245188 1800w\" sizes=\"1905px\" srcset=\"\/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/matildagoad_10820_118_400x.jpg?v=1637245188 400w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/matildagoad_10820_118_600x.jpg?v=1637245188 600w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/matildagoad_10820_118_800x.jpg?v=1637245188 800w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/matildagoad_10820_118_1000x.jpg?v=1637245188 1000w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/matildagoad_10820_118_1200x.jpg?v=1637245188 1200w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/matildagoad_10820_118_1400x.jpg?v=1637245188 1400w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/matildagoad_10820_118_1600x.jpg?v=1637245188 1600w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/matildagoad_10820_118_1800x.jpg?v=1637245188 1800w\" style=\"opacity: 1;\">\n<p>MATILDIA GOAD ON ‘HOW TO LIGHT A ROOM’<\/p>\n<\/div>\n<\/div>"
+        }
+      },
+      "163724950815f0a361": {
+        "type": "custom-html",
+        "disabled": true,
+        "settings": {
+          "subheading": "",
+          "title": "",
+          "html": "<div class=\"row-fluid home-icons\">\n<div class=\"span4\">\n<img class=\"Slideshow__Image hide-no-js lazyautosizes Image--lazyLoaded\" data-optimumx=\"1.2\" data-widths=\"[400, 600, 800, 1000, 1200, 1400, 1600, 1800]\" data-sizes=\"auto\" alt=\"\" data-srcset=\"\/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/g736B_400x.png?v=1637250204 400w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/g736B_600x.png?v=1637250204 600w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/g736B_800x.png?v=1637250204 800w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/g736B_1000x.png?v=1637250204 1000w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/g736B_1200x.png?v=1637250204 1200w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/g736B_1400x.png?v=1637250204 1400w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/g736B_1600x.png?v=1637250204 1600w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/g736B_1800x.png?v=1637250204 1800w\" sizes=\"1905px\" srcset=\"\/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/g736B_400x.png?v=1637250204 400w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/g736B_600x.png?v=1637250204 600w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/g736B_800x.png?v=1637250204 800w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/g736B_1000x.png?v=1637250204 1000w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/g736B_1200x.png?v=1637250204 1200w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/g736B_1400x.png?v=1637250204 1400w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/g736B_1600x.png?v=1637250204 1600w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/g736B_1800x.png?v=1637250204 1800w\" style=\"opacity: 1;\">\n<p>Worldwide shipping Free Delivery on all orders over £30<\/p>\n<p><\/p>\n<\/div>\n<div class=\"span4\">\n<img class=\"Slideshow__Image hide-no-js lazyautosizes Image--lazyLoaded\" data-optimumx=\"1.2\" data-widths=\"[400, 600, 800, 1000, 1200, 1400, 1600, 1800]\" data-sizes=\"auto\" alt=\"\" data-srcset=\"\/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/g22_400x.png?v=1637249816 400w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/g22_600x.png?v=1637249816 600w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/g22_800x.png?v=1637249816 800w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/g22_1000x.png?v=1637249816 1000w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/g22_1200x.png?v=1637249816 1200w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/g22_1400x.png?v=1637249816 1400w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/g22_1600x.png?v=1637249816 1600w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/g22_1800x.png?v=1637249816 1800w\" sizes=\"1905px\" srcset=\"\/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/g22_400x.png?v=1637249816 400w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/g22_600x.png?v=1637249816 600w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/g22_800x.png?v=1637249816 800w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/g22_1000x.png?v=1637249816 1000w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/g22_1200x.png?v=1637249816 1200w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/g22_1400x.png?v=1637249816 1400w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/g22_1600x.png?v=1637249816 1600w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/g22_1800x.png?v=1637249816 1800w\" style=\"opacity: 1;\">\n<p>Our pop up shop is open 2 December to 24 December<\/p>\n<\/div>\n<div class=\"span4\">\n<img class=\"Slideshow__Image hide-no-js lazyautosizes Image--lazyLoaded\" data-optimumx=\"1.2\" data-widths=\"[400, 600, 800, 1000, 1200, 1400, 1600, 1800]\" data-sizes=\"auto\" alt=\"\" data-srcset=\"\/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/g728B_400x.png?v=1637250266 400w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/g728B_600x.png?v=1637250266 600w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/g728B_800x.png?v=1637250266 800w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/g728B_1000x.png?v=1637250266 1000w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/g728B_1200x.png?v=1637250266 1200w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/g728B_1400x.png?v=1637250266 1400w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/g728B_1600x.png?v=1637250266 1600w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/g728B_1800x.png?v=1637250266 1800w\" sizes=\"1905px\" srcset=\"\/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/g728B_400x.png?v=1637250266 400w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/g728B_600x.png?v=1637250266 600w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/g728B_800x.png?v=1637250266 800w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/g728B_1000x.png?v=1637250266 1000w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/g728B_1200x.png?v=1637250266 1200w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/g728B_1400x.png?v=1637250266 1400w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/g728B_1600x.png?v=1637250266 1600w, \/\/cdn.shopify.com\/s\/files\/1\/0609\/7364\/6054\/files\/g728B_1800x.png?v=1637250266 1800w\" style=\"opacity: 1;\">\n<p>“There should be a place for everything and everything in its place.”<\/p>\n<\/div>\n<\/div>"
+        }
+      },
+      "homepageicons": {
+        "type": "homepageicons",
+        "disabled": true,
+        "blocks": {
+          "4f97fade-4a70-482b-abf8-c0f2e2556341": {
+            "type": "homepageicon",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/g1009.png",
+              "title": "Worldwide shipping Free Delivery on all orders over £30",
+              "link": ""
+            }
+          },
+          "b47e975c-053d-480e-977c-bb33719654b2": {
+            "type": "homepageicon",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/image36.png",
+              "title": "Our pop up shop is open 2 December to 24 December",
+              "link": ""
+            }
+          },
+          "a8180fb1-e881-4a5c-bbcf-aa210f851a1f": {
+            "type": "homepageicon",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/image730.png",
+              "title": "“There should be a place for everything and everything in its place.”",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "4f97fade-4a70-482b-abf8-c0f2e2556341",
+          "b47e975c-053d-480e-977c-bb33719654b2",
+          "a8180fb1-e881-4a5c-bbcf-aa210f851a1f"
+        ],
+        "settings": {
+        }
+      },
+      "homepage": {
+        "type": "homepage",
+        "blocks": {
+          "74c6f58a-5eb0-4402-aa2c-ef6df359318c": {
+            "type": "homepageimage",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Raffia-Red.jpg",
+              "videofile": "",
+              "videoloop": "no",
+              "title": "LIGHTING",
+              "subtitle": "Explore the Collection",
+              "link": "shopify:\/\/collections\/lighting",
+              "link2": "shopify:\/\/collections\/lighting"
+            }
+          },
+          "bb9967a4-6be4-4bc6-8701-998d7db48348": {
+            "type": "homepageimage",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Hand-Towel-Violet-Trim.jpg",
+              "videofile": "",
+              "videoloop": "no",
+              "title": "TOWELS",
+              "subtitle": "Waffle with a Linen Trim",
+              "link": "shopify:\/\/collections\/bathroom",
+              "link2": "shopify:\/\/collections\/bathroom"
+            }
+          },
+          "e08bb537-d16f-4ae4-afa8-38c59d24098a": {
+            "type": "homepageimage",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/20220607_MG__6.jpg",
+              "videofile": "",
+              "videoloop": "no",
+              "title": "FRAMES",
+              "subtitle": "Lacquered Frames",
+              "link": "shopify:\/\/collections\/frames",
+              "link2": "shopify:\/\/collections\/frames"
+            }
+          },
+          "e8ea8153-a51b-47f6-ad7f-41f3dc64b51e": {
+            "type": "homepageimage",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Capture_178.jpg",
+              "videofile": "",
+              "videoloop": "no",
+              "title": "PLANTERS",
+              "subtitle": "Explore the Collection",
+              "link": "shopify:\/\/collections\/planters",
+              "link2": "shopify:\/\/collections\/planters"
+            }
+          },
+          "8c61cd89-198e-4584-8b2f-0fa12270d2ff": {
+            "type": "homepageimage",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/L2.jpg",
+              "videofile": "",
+              "videoloop": "no",
+              "title": "LAY THE TABLE",
+              "subtitle": "Ceramics and Enamel",
+              "link": "shopify:\/\/collections\/tabletop",
+              "link2": "shopify:\/\/collections\/tabletop"
+            }
+          }
+        },
+        "block_order": [
+          "74c6f58a-5eb0-4402-aa2c-ef6df359318c",
+          "bb9967a4-6be4-4bc6-8701-998d7db48348",
+          "e08bb537-d16f-4ae4-afa8-38c59d24098a",
+          "e8ea8153-a51b-47f6-ad7f-41f3dc64b51e",
+          "8c61cd89-198e-4584-8b2f-0fa12270d2ff"
+        ],
+        "settings": {
+          "subheading": "Utility Revitalised, Tradition Reinvented",
+          "title": "EST. TWENTY SEVENTEEN"
+        }
+      },
+      "homepage2": {
+        "type": "homepage2",
+        "blocks": {
+          "8c61cd89-198e-4584-8b2f-0fa12270d2fe": {
+            "type": "homepageimage",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/matildagoad_10820_118.jpg",
+              "title": "MATILDIA GOAD ON ‘HOW TO LIGHT A ROOM’",
+              "subtitle": "",
+              "link": "shopify:\/\/pages\/contact",
+              "link2": ""
+            }
+          }
+        },
+        "settings": {
+        }
+      },
+      "contact-form-new": {
+        "type": "contact-form-new",
+        "settings": {
+          "title": "Matilda Mail",
+          "content1": "<p>Be in the know...<\/p>",
+          "content2": "<p>Sign up for insider tricks of the trade, recipes, discounts and more...<\/p>",
+          "show_newsletter": true
+        }
+      },
+      "below-contact-form": {
+        "type": "below-contact-form",
+        "blocks": {
+          "ef4dbeee-bb06-46cc-842c-cb8efeb9646e": {
+            "type": "bottomimages",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/dispatch1.png",
+              "title": ""
+            }
+          },
+          "ac0f9ec5-853a-45d0-94c0-d33ec7af6e4b": {
+            "type": "bottomimages",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/dispatch2.png",
+              "title": ""
+            }
+          },
+          "3b778e83-3ce1-4130-a027-df887912c0ad": {
+            "type": "bottomimages",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/dispatch3.png",
+              "title": ""
+            }
+          },
+          "2c8dc25e-2be9-41f2-9d41-93b20b109296": {
+            "type": "bottomimages",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/dispatch4.png",
+              "title": ""
+            }
+          }
+        },
+        "block_order": [
+          "ef4dbeee-bb06-46cc-842c-cb8efeb9646e",
+          "ac0f9ec5-853a-45d0-94c0-d33ec7af6e4b",
+          "3b778e83-3ce1-4130-a027-df887912c0ad",
+          "2c8dc25e-2be9-41f2-9d41-93b20b109296"
+        ],
+        "settings": {
+        }
+      },
+      "16439134373db2fd61": {
+        "type": "homepage2",
+        "blocks": {
+          "16439134373db2fd61-0": {
+            "type": "homepageimage",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Taxi.jpg",
+              "videofile": "",
+              "videoloop": "no",
+              "title": "FIVE YEAR ANNIVERSARY",
+              "subtitle": "est. 2017",
+              "link": "shopify:\/\/pages\/5-year-anniversary",
+              "link2": "shopify:\/\/pages\/5-year-anniversary"
+            }
+          },
+          "44973de6-ef79-46c9-a95c-88486462721f": {
+            "type": "homepageimage",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Lighting_Guide.jpg",
+              "videofile": "",
+              "videoloop": "no",
+              "title": "LIGHTING GUIDE",
+              "subtitle": "how to choose",
+              "link": "shopify:\/\/pages\/lighting-guide",
+              "link2": "shopify:\/\/pages\/lighting-guide"
+            }
+          }
+        },
+        "block_order": [
+          "16439134373db2fd61-0",
+          "44973de6-ef79-46c9-a95c-88486462721f"
+        ],
+        "settings": {
+        }
+      }
+    },
+    "content_for_index": [
+      "1574801103148",
+      "slideshow",
+      "homepage",
+      "1637235641ecf53f8f",
+      "1637236229ae8dd7df",
+      "collection-list",
+      "16195153815277fe61",
+      "homepageicons",
+      "163724950815f0a361",
+      "blog-posts",
+      "1550495224662",
+      "1582634539171",
+      "16439134373db2fd61"
+    ]
+  },
+  "presets": {
+    "Allure": {
+      "heading_color": "#1c1b1b",
+      "text_color": "#1c1b1b",
+      "text_light_color": "#6a6a6a",
+      "link_color": "#6a6a6a",
+      "background": "#efefef",
+      "light_background": "#ffffff",
+      "product_on_sale_color": "#f94c43",
+      "button_background": "#1c1b1b",
+      "button_text_color": "#ffffff",
+      "header_background": "#ffffff",
+      "header_heading_color": "#1c1b1b",
+      "header_light_color": "#6a6a6a",
+      "footer_background": "#ffffff",
+      "footer_heading_color": "#1c1b1b",
+      "footer_text_color": "#6a6a6a",
+      "newsletter_popup_background": "#1c1b1b",
+      "newsletter_popup_text_color": "#ffffff",
+      "secondary_elements_background": "#1c1b1b",
+      "secondary_elements_text_color": "#ffffff",
+      "navigation_background": "#1c1b1b",
+      "navigation_text_color": "#ffffff",
+      "heading_font": "montserrat_n5",
+      "heading_size": "small",
+      "uppercase_heading": true,
+      "text_font": "nunito_sans_n4",
+      "base_text_font_size": 14,
+      "currency_conversion_enabled": false,
+      "currency_conversion_round_amounts": true,
+      "currency_conversion_supported_currencies": "USD CAD EUR GBP",
+      "currency_conversion_money_format": "money_format",
+      "show_page_transition": true,
+      "search_mode": "product,article",
+      "product_show_price_on_hover": false,
+      "product_show_secondary_image": false,
+      "product_info_alignment": "center",
+      "product_image_size": "natural",
+      "product_list_horizontal_spacing": "medium",
+      "product_list_vertical_spacing": "small",
+      "cart_type": "drawer",
+      "cart_enable_notes": true,
+      "cart_show_free_shipping_threshold": false,
+      "cart_free_shipping_threshold": "50",
+      "checkout_logo_position": "center",
+      "checkout_logo_size": "small",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_color": "#efefef",
+      "checkout_accent_color": "#1c1b1b",
+      "checkout_button_color": "#1c1b1b",
+      "sections": {
+        "sidebar-menu": {
+          "type": "sidebar-menu",
+          "settings": {
+            "primary_menu": "main-menu",
+            "show_social_media": true
+          }
+        },
+        "announcement": {
+          "type": "announcement",
+          "settings": {
+            "background": "#000000",
+            "text_color": "#ffffff",
+            "content": "Announce something here"
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "use_sticky_header": true,
+            "logo_max_width": 140,
+            "navigation_menu": "main-menu",
+            "navigation_style": "inline",
+            "enable_transparent_header": true,
+            "transparent_text_color": "#ffffff"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "text",
+              "settings": {
+                "title": "About the shop",
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>",
+                "show_social_media": true
+              }
+            },
+            "footer-1": {
+              "type": "links",
+              "settings": {
+                "menu": "footer"
+              }
+            },
+            "footer-2": {
+              "type": "newsletter",
+              "settings": {
+                "title": "Newsletter",
+                "content": "<p>Subscribe to receive updates, access to exclusive deals, and more.<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ],
+          "settings": {
+            "show_payment_methods": true
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slide-0": {
+              "type": "image",
+              "settings": {
+                "apply_overlay": true,
+                "content_position": "bottomLeft",
+                "subheading": "Slide title",
+                "title": "Tell your story"
+              }
+            },
+            "slide-1": {
+              "type": "image",
+              "settings": {
+                "apply_overlay": true,
+                "content_position": "bottomLeft",
+                "subheading": "Slide title",
+                "title": "Tell your story"
+              }
+            }
+          },
+          "block_order": [
+            "slide-0",
+            "slide-1"
+          ],
+          "settings": {
+            "show_fullscreen": true,
+            "show_arrow": false,
+            "autoplay": true,
+            "cycle_speed": 5,
+            "text_color": "#ffffff",
+            "button_color": "#363636"
+          }
+        },
+        "featured-collections": {
+          "type": "featured-collections",
+          "blocks": {
+            "featured-collection-0": {
+              "type": "collection",
+              "settings": {
+                "grid_items_count": 8,
+                "button_text": "View all products"
+              }
+            }
+          },
+          "block_order": [
+            "featured-collection-0"
+          ],
+          "settings": {
+            "title": "Featured collection",
+            "layout_mode": "grid",
+            "show_product_info": true,
+            "grid_mobile_items_per_row": "2",
+            "grid_desktop_items_per_row": 4
+          }
+        },
+        "collection-list": {
+          "type": "collection-list",
+          "blocks": {
+            "collection-0": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            },
+            "collection-1": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            },
+            "collection-2": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            }
+          },
+          "block_order": [
+            "collection-0",
+            "collection-1",
+            "collection-2"
+          ],
+          "settings": {
+            "add_spacing": true,
+            "expand_collection": false,
+            "text_color": "#ffffff",
+            "button_color": "#363636"
+          }
+        },
+        "featured-product": {
+          "type": "featured-product",
+          "settings": {
+            "title": "Featured product",
+            "show_vendor": true,
+            "show_description": true,
+            "show_color_swatch": false,
+            "show_color_carousel": false,
+            "show_quantity_selector": true,
+            "show_inventory_quantity": false,
+            "inventory_quantity_threshold": 3
+          }
+        },
+        "timeline": {
+          "type": "timeline",
+          "blocks": {
+            "item-0": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2000",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            },
+            "item-1": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2001",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            },
+            "item-2": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2002",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "item-0",
+            "item-1",
+            "item-2"
+          ],
+          "settings": {
+            "text_color": "#ffffff"
+          }
+        },
+        "blog-posts": {
+          "type": "blog-posts",
+          "blocks": {
+            "blog-0": {
+              "type": "blog",
+              "settings": {
+                "blog": "news"
+              }
+            }
+          },
+          "block_order": [
+            "blog-0"
+          ],
+          "settings": {
+            "title": "Featured article",
+            "show_category": false,
+            "button_text": "View all articles"
+          }
+        },
+        "shop-the-look": {
+          "type": "shop-the-look",
+          "blocks": {
+            "look-0": {
+              "type": "look",
+              "settings": {
+                "dot_style": "light",
+                "product_1_horizontal_position": 30,
+                "product_1_vertical_position": 40,
+                "product_2_horizontal_position": 45,
+                "product_2_vertical_position": 65,
+                "product_3_horizontal_position": 70,
+                "product_3_vertical_position": 50
+              }
+            },
+            "look-1": {
+              "type": "look",
+              "settings": {
+                "dot_style": "light",
+                "product_1_horizontal_position": 25,
+                "product_1_vertical_position": 45,
+                "product_2_horizontal_position": 55,
+                "product_2_vertical_position": 30,
+                "product_3_horizontal_position": 65,
+                "product_3_vertical_position": 60
+              }
+            }
+          },
+          "block_order": [
+            "look-0",
+            "look-1"
+          ],
+          "settings": {
+            "subheading": "Shop",
+            "title": "Our looks"
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "show_collection_info": true,
+            "show_collection_image": false,
+            "show_sort_by": true,
+            "show_layout_switch": false,
+            "toolbar_position": "bottom",
+            "filter_position": "sidebar",
+            "filter_mode": "tag",
+            "show_filter_color_swatch": true,
+            "grid_items_per_page": 16,
+            "grid_mobile_items_per_row": "2",
+            "grid_desktop_items_per_row": 4
+          }
+        },
+        "recently-viewed-products": {
+          "type": "recently-viewed-products",
+          "settings": {
+            "show_section": true,
+            "title": "Recently viewed",
+            "show_product_info": true
+          }
+        },
+        "collection-footer": {
+          "type": "collection-footer",
+          "settings": {
+            "show_section": false,
+            "text_color": "#ffffff",
+            "apply_overlay": true,
+            "title": "Our story",
+            "content": "<p>Add your own custom content to explain your processes...<\/p>"
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "show_share_buttons": true,
+            "show_vendor": true,
+            "show_color_swatch": false,
+            "show_color_carousel": false,
+            "show_quantity_selector": true,
+            "show_inventory_quantity": false,
+            "inventory_quantity_threshold": 3,
+            "image_size": "medium",
+            "stack_images": true,
+            "show_thumbnails": false,
+            "enable_image_zoom": true,
+            "reviews_enabled": false
+          }
+        },
+        "related-products": {
+          "type": "related-products",
+          "settings": {
+            "show_section": true,
+            "title": "Related Products",
+            "show_product_info": true
+          }
+        },
+        "homepage": {
+          "type": "homepage",
+          "settings": {
+            "title": "Homepage Blocks"
+          }
+        }
+      },
+      "content_for_index": [
+        "slideshow",
+        "featured-collections",
+        "collection-list",
+        "featured-product",
+        "timeline",
+        "blog-posts",
+        "shop-the-look",
+        "homepage"
+      ]
+    },
+    "Couture": {
+      "heading_color": "#5c5c5c",
+      "text_color": "#5c5c5c",
+      "text_light_color": "#939393",
+      "link_color": "#323232",
+      "background": "#ffffff",
+      "light_background": "#ffffff",
+      "product_on_sale_color": "#f94c43",
+      "button_background": "#5c5c5c",
+      "button_text_color": "#ffffff",
+      "header_background": "#ffffff",
+      "header_heading_color": "#5c5c5c",
+      "header_light_color": "#939393",
+      "footer_background": "#ffffff",
+      "footer_heading_color": "#5c5c5c",
+      "footer_text_color": "#939393",
+      "newsletter_popup_background": "#ffffff",
+      "newsletter_popup_text_color": "#1c1b1b",
+      "secondary_elements_background": "#5c5c5c",
+      "secondary_elements_text_color": "#ffffff",
+      "navigation_background": "#ffffff",
+      "navigation_text_color": "#5c5c5c",
+      "heading_font": "futura_n4",
+      "heading_size": "large",
+      "uppercase_heading": false,
+      "text_font": "century_gothic_n4",
+      "base_text_font_size": 15,
+      "currency_conversion_enabled": false,
+      "currency_conversion_round_amounts": true,
+      "currency_conversion_supported_currencies": "USD CAD EUR GBP",
+      "currency_conversion_money_format": "money_format",
+      "show_page_transition": true,
+      "search_mode": "product,article",
+      "product_show_price_on_hover": true,
+      "product_show_secondary_image": false,
+      "product_info_alignment": "left",
+      "product_image_size": "natural",
+      "product_list_horizontal_spacing": "small",
+      "product_list_vertical_spacing": "small",
+      "cart_type": "drawer",
+      "cart_enable_notes": true,
+      "cart_show_free_shipping_threshold": false,
+      "cart_free_shipping_threshold": "50",
+      "checkout_logo_position": "center",
+      "checkout_logo_size": "small",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_accent_color": "#323232",
+      "checkout_button_color": "#5c5c5c",
+      "sections": {
+        "sidebar-menu": {
+          "type": "sidebar-menu",
+          "settings": {
+            "primary_menu": "main-menu",
+            "show_social_media": true
+          }
+        },
+        "announcement": {
+          "type": "announcement",
+          "settings": {
+            "background": "#f3f3f3",
+            "text_color": "#5c5c5c",
+            "content": "Announce something here"
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "use_sticky_header": true,
+            "logo_max_width": 140,
+            "navigation_menu": "main-menu",
+            "navigation_style": "center",
+            "enable_transparent_header": true,
+            "transparent_text_color": "#ffffff"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "text",
+              "settings": {
+                "title": "About the shop",
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>",
+                "show_social_media": true
+              }
+            },
+            "footer-1": {
+              "type": "links",
+              "settings": {
+                "menu": "footer"
+              }
+            },
+            "footer-2": {
+              "type": "newsletter",
+              "settings": {
+                "title": "Newsletter",
+                "content": "<p>Subscribe to receive updates, access to exclusive deals, and more.<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ],
+          "settings": {
+            "show_payment_methods": true
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slide-0": {
+              "type": "image",
+              "settings": {
+                "apply_overlay": true,
+                "content_position": "bottomLeft",
+                "subheading": "Slide title",
+                "title": "Tell your story"
+              }
+            },
+            "slide-1": {
+              "type": "image",
+              "settings": {
+                "apply_overlay": true,
+                "content_position": "bottomLeft",
+                "subheading": "Slide title",
+                "title": "Tell your story"
+              }
+            }
+          },
+          "block_order": [
+            "slide-0",
+            "slide-1"
+          ],
+          "settings": {
+            "show_fullscreen": true,
+            "show_arrow": false,
+            "autoplay": true,
+            "cycle_speed": 5,
+            "text_color": "#ffffff",
+            "button_color": "#363636"
+          }
+        },
+        "featured-collections": {
+          "type": "featured-collections",
+          "blocks": {
+            "featured-collection-0": {
+              "type": "collection",
+              "settings": {
+                "grid_items_count": 8,
+                "button_text": "View all products"
+              }
+            }
+          },
+          "block_order": [
+            "featured-collection-0"
+          ],
+          "settings": {
+            "title": "Featured collection",
+            "layout_mode": "grid",
+            "show_product_info": true,
+            "grid_mobile_items_per_row": "2",
+            "grid_desktop_items_per_row": 4
+          }
+        },
+        "collection-list": {
+          "type": "collection-list",
+          "blocks": {
+            "collection-0": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            },
+            "collection-1": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            },
+            "collection-2": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            }
+          },
+          "block_order": [
+            "collection-0",
+            "collection-1",
+            "collection-2"
+          ],
+          "settings": {
+            "add_spacing": true,
+            "expand_collection": false,
+            "text_color": "#ffffff",
+            "button_color": "#363636"
+          }
+        },
+        "featured-product": {
+          "type": "featured-product",
+          "settings": {
+            "title": "Featured product",
+            "show_vendor": true,
+            "show_description": true,
+            "show_color_swatch": false,
+            "show_color_carousel": false,
+            "show_quantity_selector": true,
+            "show_inventory_quantity": false,
+            "inventory_quantity_threshold": 3
+          }
+        },
+        "timeline": {
+          "type": "timeline",
+          "blocks": {
+            "item-0": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2000",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            },
+            "item-1": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2001",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            },
+            "item-2": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2002",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "item-0",
+            "item-1",
+            "item-2"
+          ],
+          "settings": {
+            "text_color": "#ffffff"
+          }
+        },
+        "blog-posts": {
+          "type": "blog-posts",
+          "blocks": {
+            "blog-0": {
+              "type": "blog",
+              "settings": {
+                "blog": "news"
+              }
+            }
+          },
+          "block_order": [
+            "blog-0"
+          ],
+          "settings": {
+            "title": "Featured article",
+            "show_category": false,
+            "button_text": "View all articles"
+          }
+        },
+        "shop-the-look": {
+          "type": "shop-the-look",
+          "blocks": {
+            "look-0": {
+              "type": "look",
+              "settings": {
+                "dot_style": "light",
+                "product_1_horizontal_position": 30,
+                "product_1_vertical_position": 40,
+                "product_2_horizontal_position": 45,
+                "product_2_vertical_position": 65,
+                "product_3_horizontal_position": 70,
+                "product_3_vertical_position": 50
+              }
+            },
+            "look-1": {
+              "type": "look",
+              "settings": {
+                "dot_style": "light",
+                "product_1_horizontal_position": 25,
+                "product_1_vertical_position": 45,
+                "product_2_horizontal_position": 55,
+                "product_2_vertical_position": 30,
+                "product_3_horizontal_position": 65,
+                "product_3_vertical_position": 60
+              }
+            }
+          },
+          "block_order": [
+            "look-0",
+            "look-1"
+          ],
+          "settings": {
+            "subheading": "Shop",
+            "title": "Our looks"
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "show_collection_info": true,
+            "show_collection_image": false,
+            "show_sort_by": true,
+            "show_layout_switch": false,
+            "toolbar_position": "bottom",
+            "filter_position": "sidebar",
+            "filter_mode": "tag",
+            "show_filter_color_swatch": true,
+            "grid_items_per_page": 16,
+            "grid_mobile_items_per_row": "2",
+            "grid_desktop_items_per_row": 4
+          }
+        },
+        "recently-viewed-products": {
+          "type": "recently-viewed-products",
+          "settings": {
+            "show_section": true,
+            "title": "Recently viewed",
+            "show_product_info": true
+          }
+        },
+        "collection-footer": {
+          "type": "collection-footer",
+          "settings": {
+            "show_section": false,
+            "text_color": "#ffffff",
+            "apply_overlay": true,
+            "title": "Our story",
+            "content": "<p>Add your own custom content to explain your processes...<\/p>"
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "show_share_buttons": true,
+            "show_vendor": true,
+            "show_color_swatch": false,
+            "show_color_carousel": false,
+            "show_quantity_selector": true,
+            "show_inventory_quantity": false,
+            "inventory_quantity_threshold": 3,
+            "image_size": "medium",
+            "stack_images": true,
+            "show_thumbnails": false,
+            "enable_image_zoom": true,
+            "reviews_enabled": false
+          }
+        },
+        "related-products": {
+          "type": "related-products",
+          "settings": {
+            "show_section": true,
+            "title": "Related Products",
+            "show_product_info": true
+          }
+        }
+      },
+      "content_for_index": [
+        "slideshow",
+        "featured-collections",
+        "collection-list",
+        "featured-product",
+        "timeline",
+        "blog-posts",
+        "shop-the-look"
+      ]
+    },
+    "Vogue": {
+      "heading_color": "#454545",
+      "text_color": "#454545",
+      "text_light_color": "#9d9d9d",
+      "link_color": "#a17c5e",
+      "background": "#ffffff",
+      "light_background": "#ffffff",
+      "product_on_sale_color": "#f94c43",
+      "button_background": "#c2a284",
+      "button_text_color": "#ffffff",
+      "header_background": "#ffffff",
+      "header_heading_color": "#454545",
+      "header_light_color": "#9d9d9d",
+      "footer_background": "#ffffff",
+      "footer_heading_color": "#454545",
+      "footer_text_color": "#9d9d9d",
+      "newsletter_popup_background": "#454545",
+      "newsletter_popup_text_color": "#ffffff",
+      "secondary_elements_background": "#f1e4d8",
+      "secondary_elements_text_color": "#373737",
+      "navigation_background": "#454545",
+      "navigation_text_color": "#ffffff",
+      "heading_font": "din_neuzeit_grotesk_n3",
+      "heading_size": "small",
+      "uppercase_heading": true,
+      "text_font": "futura_n4",
+      "base_text_font_size": 14,
+      "currency_conversion_enabled": false,
+      "currency_conversion_round_amounts": true,
+      "currency_conversion_supported_currencies": "USD CAD EUR GBP",
+      "currency_conversion_money_format": "money_format",
+      "show_page_transition": true,
+      "show_element_staggering": false,
+      "search_mode": "product,article",
+      "product_show_price_on_hover": true,
+      "product_show_secondary_image": false,
+      "product_info_alignment": "center",
+      "product_image_size": "natural",
+      "product_list_horizontal_spacing": "medium",
+      "product_list_vertical_spacing": "small",
+      "cart_type": "drawer",
+      "cart_enable_notes": true,
+      "cart_show_free_shipping_threshold": false,
+      "cart_free_shipping_threshold": "50",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_accent_color": "#a17c5e",
+      "checkout_button_color": "#454545",
+      "sections": {
+        "sidebar-menu": {
+          "type": "sidebar-menu",
+          "settings": {
+            "primary_menu": "main-menu",
+            "show_social_media": true
+          }
+        },
+        "announcement": {
+          "type": "announcement",
+          "settings": {
+            "background": "#f1e4d8",
+            "text_color": "#343434",
+            "content": "Announce something here"
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "use_sticky_header": true,
+            "logo_max_width": 140,
+            "navigation_menu": "main-menu",
+            "navigation_style": "inline",
+            "enable_transparent_header": true,
+            "transparent_text_color": "#ffffff"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "text",
+              "settings": {
+                "title": "About the shop",
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>",
+                "show_social_media": true
+              }
+            },
+            "footer-1": {
+              "type": "links",
+              "settings": {
+                "menu": "footer"
+              }
+            },
+            "footer-2": {
+              "type": "newsletter",
+              "settings": {
+                "title": "Newsletter",
+                "content": "<p>Subscribe to receive updates, access to exclusive deals, and more.<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ],
+          "settings": {
+            "show_payment_methods": true
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slide-0": {
+              "type": "image",
+              "settings": {
+                "apply_overlay": true,
+                "content_position": "bottomLeft",
+                "subheading": "Slide title",
+                "title": "Tell your story"
+              }
+            },
+            "slide-1": {
+              "type": "image",
+              "settings": {
+                "apply_overlay": true,
+                "content_position": "bottomLeft",
+                "subheading": "Slide title",
+                "title": "Tell your story"
+              }
+            }
+          },
+          "block_order": [
+            "slide-0",
+            "slide-1"
+          ],
+          "settings": {
+            "show_fullscreen": true,
+            "show_arrow": false,
+            "autoplay": true,
+            "cycle_speed": 5,
+            "text_color": "#ffffff",
+            "button_color": "#363636"
+          }
+        },
+        "featured-collections": {
+          "type": "featured-collections",
+          "blocks": {
+            "featured-collection-0": {
+              "type": "collection",
+              "settings": {
+                "grid_items_count": 8,
+                "button_text": "View all products"
+              }
+            }
+          },
+          "block_order": [
+            "featured-collection-0"
+          ],
+          "settings": {
+            "title": "Featured collection",
+            "layout_mode": "grid",
+            "show_product_info": true,
+            "grid_mobile_items_per_row": "2",
+            "grid_desktop_items_per_row": 4
+          }
+        },
+        "collection-list": {
+          "type": "collection-list",
+          "blocks": {
+            "collection-0": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            },
+            "collection-1": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            },
+            "collection-2": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            }
+          },
+          "block_order": [
+            "collection-0",
+            "collection-1",
+            "collection-2"
+          ],
+          "settings": {
+            "add_spacing": true,
+            "expand_collection": false,
+            "text_color": "#ffffff",
+            "button_color": "#363636"
+          }
+        },
+        "featured-product": {
+          "type": "featured-product",
+          "settings": {
+            "title": "Featured product",
+            "show_vendor": true,
+            "show_description": true,
+            "show_color_swatch": false,
+            "show_color_carousel": false,
+            "show_quantity_selector": true,
+            "show_inventory_quantity": false,
+            "inventory_quantity_threshold": 3
+          }
+        },
+        "timeline": {
+          "type": "timeline",
+          "blocks": {
+            "item-0": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2000",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            },
+            "item-1": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2001",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            },
+            "item-2": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2002",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "item-0",
+            "item-1",
+            "item-2"
+          ],
+          "settings": {
+            "text_color": "#ffffff"
+          }
+        },
+        "blog-posts": {
+          "type": "blog-posts",
+          "blocks": {
+            "blog-0": {
+              "type": "blog",
+              "settings": {
+                "blog": "news"
+              }
+            }
+          },
+          "block_order": [
+            "blog-0"
+          ],
+          "settings": {
+            "title": "Featured article",
+            "show_category": false,
+            "button_text": "View all articles"
+          }
+        },
+        "shop-the-look": {
+          "type": "shop-the-look",
+          "blocks": {
+            "look-0": {
+              "type": "look",
+              "settings": {
+                "dot_style": "light",
+                "product_1_horizontal_position": 30,
+                "product_1_vertical_position": 40,
+                "product_2_horizontal_position": 45,
+                "product_2_vertical_position": 65,
+                "product_3_horizontal_position": 70,
+                "product_3_vertical_position": 50
+              }
+            },
+            "look-1": {
+              "type": "look",
+              "settings": {
+                "dot_style": "light",
+                "product_1_horizontal_position": 25,
+                "product_1_vertical_position": 45,
+                "product_2_horizontal_position": 55,
+                "product_2_vertical_position": 30,
+                "product_3_horizontal_position": 65,
+                "product_3_vertical_position": 60
+              }
+            }
+          },
+          "block_order": [
+            "look-0",
+            "look-1"
+          ],
+          "settings": {
+            "subheading": "Shop",
+            "title": "Our looks"
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "show_collection_info": true,
+            "show_collection_image": false,
+            "show_sort_by": true,
+            "show_layout_switch": false,
+            "toolbar_position": "bottom",
+            "filter_position": "sidebar",
+            "filter_mode": "tag",
+            "show_filter_color_swatch": true,
+            "grid_items_per_page": 16,
+            "grid_mobile_items_per_row": "2",
+            "grid_desktop_items_per_row": 4
+          }
+        },
+        "recently-viewed-products": {
+          "type": "recently-viewed-products",
+          "settings": {
+            "show_section": true,
+            "title": "Recently viewed",
+            "show_product_info": true
+          }
+        },
+        "collection-footer": {
+          "type": "collection-footer",
+          "settings": {
+            "show_section": false,
+            "text_color": "#ffffff",
+            "apply_overlay": true,
+            "title": "Our story",
+            "content": "<p>Add your own custom content to explain your processes...<\/p>"
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "show_share_buttons": true,
+            "show_vendor": true,
+            "show_color_swatch": false,
+            "show_color_carousel": false,
+            "show_quantity_selector": true,
+            "show_inventory_quantity": false,
+            "inventory_quantity_threshold": 3,
+            "image_size": "medium",
+            "stack_images": true,
+            "show_thumbnails": false,
+            "enable_image_zoom": true,
+            "reviews_enabled": false
+          }
+        },
+        "related-products": {
+          "type": "related-products",
+          "settings": {
+            "show_section": true,
+            "title": "Related Products",
+            "show_product_info": true
+          }
+        }
+      },
+      "content_for_index": [
+        "slideshow",
+        "featured-collections",
+        "collection-list",
+        "featured-product",
+        "timeline",
+        "blog-posts",
+        "shop-the-look"
+      ]
+    }
+  }
+}

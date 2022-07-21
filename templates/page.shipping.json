@@ -1,0 +1,95 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 4,
+        "padding_bottom": 0,
+        "bgcolor": "#ffffff",
+        "defaultfontsize": 17,
+        "defaulttitlefontsize": 25,
+        "margin_bottom": 30,
+        "margin_title_bottom": 30,
+        "margin_title_top": 30
+      }
+    },
+    "1655321841b8013c60": {
+      "type": "accordion",
+      "blocks": {
+        "c5977dbe-81a0-4a48-81cb-1e93459af36e": {
+          "type": "accordionitem",
+          "settings": {
+            "title": "DELIVERY",
+            "content": "<p>Estimated Delivery Times<br\/>United Kingdom: 1-3 days<br\/>Europe: 3-5 days<br\/>USA: 3-5 days<br\/>Rest of the world: 7-10 days<\/p><p>We aim to dispatch all goods that are in stock within 1-3 days from the order date, 3-5 days for international shipments; if you need the items sooner than this please drop us an email and we will do our best to accommodate this for you. <\/p>"
+          }
+        },
+        "5dc0c4f4-5b9d-4da8-bb7e-8588d0c0f5cb": {
+          "type": "accordionitem",
+          "settings": {
+            "title": "INTERNATIONAL ORDERS",
+            "content": "<p>Our shipping prices at checkout do not include any local customs and duties charges, and the customer will be held liable for any charges that may occur.<\/p><p>VAT is deducted at checkout on International orders.<\/p>"
+          }
+        },
+        "b549aaff-717f-4461-99ea-c2a84b21afa7": {
+          "type": "accordionitem",
+          "settings": {
+            "title": "SHELLS",
+            "content": "<p>Please note we are only able to ship our <a href=\"\/collections\/clam-shells\" target=\"_blank\" title=\"SHELLS\">Ceramic Shells<\/a> to UK based addresses. If you are an international customer you will need to remove it from your basket prior to receiving a shipping quote for any other items in your order.<\/p>"
+          }
+        },
+        "c384dcb1-bb5d-4434-83c7-8a4197674d8a": {
+          "type": "accordionitem",
+          "settings": {
+            "title": "PRE-ORDERS",
+            "content": "<p>Please be sure to check the product details on the items you have purchased as there may be lead times specified on the product page. We will do our best to improve lead times where possible.<\/p><p>We do not offer split shipments so your order will ship in full once the pre-ordered item is back in stock. Please bear any delays from this in mind when ordering.<\/p>"
+          }
+        },
+        "6e7af4e3-2e38-44e5-aa53-e6abd7ff06cd": {
+          "type": "accordionitem",
+          "settings": {
+            "title": "UK RETURNS",
+            "content": "<p>We hope you love your products but if you wish to return an item, goods must be sent back within 14 days of receiving the items. <\/p><p>Please follow the instructions within our <a href=\"https:\/\/matildagoad.com\/apps\/return_prime\" target=\"_blank\" title=\"Returns Portal\">returns portal<\/a>.<\/p><p>The order remains the customer's responsibility until we receive it back and we are unable to refund orders that are returned damaged. We recommend shipping back products in their original packaging where possible. If returning lighting, please ensure plugs are wrapped separately to protect the base and prevent damage.<\/p><p>At present, we are not able to offer free returns, so a postage fee will be deducted from your refund. Details of your parcel size can be found within your order confirmation email:<\/p><p>For a standard parcel: £6<br\/>For a large parcel: £10<br\/>For a fragile parcel: £18<\/p>"
+          }
+        },
+        "94264f29-a2e3-43e1-b1a5-ce94f4bac8bb": {
+          "type": "accordionitem",
+          "settings": {
+            "title": "INTERNATIONAL RETURNS",
+            "content": "<p>If you wish to return from outside of the UK, please raise a return request through our <a href=\"https:\/\/matildagoad.com\/apps\/return_prime\" target=\"_blank\" title=\"https:\/\/matildagoad.com\/apps\/return_prime\">returns portal<\/a>, after which a member of our team will contact you directly to process.<\/p><p>We are unable to refund on any orders that are returned to us damaged.<\/p>"
+          }
+        },
+        "bd0774a4-f1fc-4eba-b0ff-5505174112d3": {
+          "type": "accordionitem",
+          "settings": {
+            "title": "EXCHANGES",
+            "content": "<p>If you wish to exchange an item for some reason, please notify us as soon as possible at <a href=\"mailto:info@matildagoad.com\">info@matildagoad.com<\/a> and we can assist. Goods must be sent back within 14 days of receiving the items.<\/p><p>Many of the goods are handmade often using organic materials therefore they are of a delicate nature and may vary slightly between orders and have slight differences to images. Should there be any damage to the items in your order when it arrives please notify us immediately and we will endeavour to exchange this as quickly as possible.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "c5977dbe-81a0-4a48-81cb-1e93459af36e",
+        "5dc0c4f4-5b9d-4da8-bb7e-8588d0c0f5cb",
+        "b549aaff-717f-4461-99ea-c2a84b21afa7",
+        "c384dcb1-bb5d-4434-83c7-8a4197674d8a",
+        "6e7af4e3-2e38-44e5-aa53-e6abd7ff06cd",
+        "94264f29-a2e3-43e1-b1a5-ce94f4bac8bb",
+        "bd0774a4-f1fc-4eba-b0ff-5505174112d3"
+      ],
+      "settings": {
+        "border": "no",
+        "background": "no",
+        "centertext": "no",
+        "centerheader": "no",
+        "separatorline": "yes",
+        "uppercaseheader": "yes",
+        "maxwidth": 1150,
+        "headerfontsize": 21,
+        "contentfontsize": 18
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1655321841b8013c60"
+  ]
+}

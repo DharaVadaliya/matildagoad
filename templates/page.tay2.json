@@ -1,0 +1,180 @@
+{
+  "sections": {
+    "164396647741e39522": {
+      "type": "text-with-image",
+      "settings": {
+        "subheading": "",
+        "title": "OUR STORY",
+        "image": "shopify:\/\/shop_images\/Matilda_Portrait.jpg",
+        "image_position": "left",
+        "content": "<p>Our five year anniversary seemed like an apt moment for Matilda Goad to undergo an evolution; a coming of age of sorts. Over the past few years we have refined our aesthetic, cemented our design philosophy and cultivated a community of artisans around the world – all of which eventually led to Matilda Goad & Co.<br\/><br\/>A  destination for homewares, built on revitalising utility and reinventing tradition, Matilda Goad & Co brings some edge to the British countryside aesthetic. Our designs weave together personality and purpose; each item has a role to play in the daily motions of the home.<br\/><br\/>Homewares designed by Matilda, from our London studio to your home.<\/p><p><\/p><p><\/p>",
+        "link_text": "",
+        "link_url": ""
+      }
+    },
+    "1643967550f05f4c63": {
+      "type": "carousel",
+      "disabled": true,
+      "blocks": {
+        "1643967550167d6693-0": {
+          "type": "imageitem",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FINALS_001.jpg",
+            "alt": "Image",
+            "image_alignment": "center center",
+            "content_position": "bottomLeft",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "apply_overlay": true
+          }
+        },
+        "1643967550167d6693-1": {
+          "type": "imageitem",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FINALS_011.jpg",
+            "alt": "Image",
+            "image_alignment": "center center",
+            "content_position": "bottomLeft",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "apply_overlay": true
+          }
+        },
+        "1643967550167d6693-2": {
+          "type": "imageitem",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1C2A0064.png",
+            "alt": "Image",
+            "image_alignment": "center center",
+            "content_position": "bottomLeft",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "apply_overlay": true
+          }
+        },
+        "f95a0dff-329c-4070-ac5b-ba79d0ddc3a5": {
+          "type": "imageitem",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Planters_71409c05-2d7d-4bb4-a4af-156f7a1987bc.png",
+            "alt": "Image",
+            "image_alignment": "center center",
+            "content_position": "bottomLeft",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "apply_overlay": true
+          }
+        },
+        "e9ba34e6-e828-4d54-95e1-e1e18fd84056": {
+          "type": "imageitem",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FINALS_013.jpg",
+            "alt": "Image",
+            "image_alignment": "center center",
+            "content_position": "bottomLeft",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "apply_overlay": true
+          }
+        },
+        "da701672-5f59-4926-af68-66b8004b20d9": {
+          "type": "imageitem",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1C2A0379.png",
+            "alt": "Image",
+            "image_alignment": "center center",
+            "content_position": "bottomLeft",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "apply_overlay": true
+          }
+        },
+        "b18f452a-3a23-4ca7-8669-6af0552670aa": {
+          "type": "imageitem",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FINALS_007_c5aeaecb-6b67-43fa-90b6-54bdeb21af97.png",
+            "alt": "Image",
+            "image_alignment": "center center",
+            "content_position": "bottomLeft",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "apply_overlay": true
+          }
+        },
+        "7c3b08df-bd4f-45dc-972a-56cd8c3275f0": {
+          "type": "imageitem",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Tutu-Night_cae90ee1-6f4f-465f-b310-743c9d8085ff.png",
+            "alt": "Image",
+            "image_alignment": "center center",
+            "content_position": "bottomLeft",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "apply_overlay": true
+          }
+        },
+        "6f3d5668-d413-49bd-99c6-50534edf962b": {
+          "type": "imageitem",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Note-Board.png",
+            "alt": "Image",
+            "image_alignment": "center center",
+            "content_position": "bottomLeft",
+            "subheading": "",
+            "title": "",
+            "button_text": "View products",
+            "button_link": "",
+            "apply_overlay": true
+          }
+        }
+      },
+      "block_order": [
+        "1643967550167d6693-0",
+        "1643967550167d6693-1",
+        "1643967550167d6693-2",
+        "f95a0dff-329c-4070-ac5b-ba79d0ddc3a5",
+        "e9ba34e6-e828-4d54-95e1-e1e18fd84056",
+        "da701672-5f59-4926-af68-66b8004b20d9",
+        "b18f452a-3a23-4ca7-8669-6af0552670aa",
+        "7c3b08df-bd4f-45dc-972a-56cd8c3275f0",
+        "6f3d5668-d413-49bd-99c6-50534edf962b"
+      ],
+      "settings": {
+        "height": 250,
+        "add_spacing": false,
+        "expand_collection": false,
+        "text_color": "#ffffff",
+        "button_color": "#363636"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "bgcolor": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "164396647741e39522",
+    "1643967550f05f4c63",
+    "main"
+  ]
+}

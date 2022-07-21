@@ -1,0 +1,43 @@
+{%- assign collection_image = block.settings.image | default: collection.image | default: collection.products.first.featured_image -%}
+
+<div {{ block.shopify_attributes }} class="CollectionItem {% if section.settings.expand_collection %}CollectionItem--expand{% endif %} {% if template == 'index' %}Carousel__Cell {% if forloop.first %}is-selected{% endif %}{% endif %}" data-slide-index="{{ forloop.index0 }}">
+  {%- capture mobile_size -%}750x{% if collection_image.height >= 960 %}960{% else %}{{ collection_image.height }}{% endif %}{%- endcapture -%}
+  {%- assign image_crop = block.settings.image_alignment | split: ' ' | last -%}
+
+  
+
+    <div class="CollectionItem__Wrapper CollectionItem__Wrapper--{{ section.settings.image_size }}">
+      <div class="CollectionItem__ImageWrapper">
+
+        
+        {%- include 'image-size', sizes: '200,400,600,700,800,900,1000,1200', image: collection_image -%}
+        {%- assign image_url = product.featured_image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+		<a href="{{ block.settings.button_link | default: collection.url }}">
+			<div class="AspectRatio AspectRatio--withFallback" style="max-width: {{ max_width }}px; {% if use_natural_size %}padding-bottom: {{ 100.0 | divided_by: collection_image.aspect_ratio }}%;{% endif %} --aspect-ratio: 1">
+     		   <img class="CollectionItem__Image Image--lazyLoad Image--fadeIn" data-src="{{ collection_image | img_url: '450x450', crop: 'center' }}" data-widths="[{{ supported_sizes }}]" data-sizes="auto" alt="{{ collection.title | escape }}" data-image-id="{{ collection_image.id }}" />
+        	</div>
+  		</a>
+  	</div>
+
+      <div class="CollectionItem__Content CollectionItem__Content--{{ block.settings.content_position | default: 'bottomLeft' }}">
+          		
+          {%- if block.settings.subheading != blank -%}
+            <h3 class="SectionHeader__SubHeading Heading u-h6">{{ block.settings.subheading | escape }}</h3>
+          {%- endif -%}
+
+          {%- if collection == empty or collection_image == empty -%}
+            <h2 class="SectionHeader__Heading SectionHeader__Heading--emphasize Heading u-h1">{{ 'home_page.onboarding.collection_title' | t }}</h2>
+          {%- elsif block.settings.title != blank -%}
+            <h2 class="SectionHeader__Heading SectionHeader__Heading--emphasize Heading u-h1">{{ block.settings.title | escape }}</h2>
+          {%- elsif block == nil -%}
+            <h2 class="SectionHeader__Heading"><a href="{{ block.settings.button_link | default: collection.url }}">{{ collection.title }}</a></h2>
+          {%- endif -%}
+
+          
+      </div>
+
+    </div>
+
+
+
+</div>
