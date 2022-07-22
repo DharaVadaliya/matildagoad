@@ -377,7 +377,7 @@ const embroideredwrapper = document.querySelector('.embroideredinitials_wrapper'
 const embroideredinput = document.querySelector('#embroideredinitials');
 
 embroideredinput.addEventListener('input', ()=>{
-	if(embroideredinput.value.length == 3) {
+	if(embroideredinput.value.length == 3 || embroideredinput.value.length == 2) {
 	  document.querySelector('.ProductForm__AddToCart').removeAttribute("disabled");
   	  document.querySelector('.shopify-payment-button button').removeAttribute("disabled");
 	} else {
