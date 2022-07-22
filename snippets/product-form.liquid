@@ -216,7 +216,7 @@ for size, we use it to display a size chart (if applicable)
     		<div class="embroideredinitials_wrapper">
             <p class="line-item-property__field">
   			 	<label for="embroideredinitials">Write your initials here...</label>
-  				<input id="embroideredinitials" type="text" name="properties[embroideredinitials]" maxlength="2" oninput="this.value = this.value.toUpperCase()" >
+  				<input id="embroideredinitials" type="text" name="properties[embroideredinitials]" maxlength="3" oninput="this.value = this.value.toUpperCase()" >
 			</p>
             <p>Please note any orders containing a monogrammed towel will take an extra two days to ship. All monogrammed products are non-returnable.</p>
     		</div>
@@ -377,7 +377,7 @@ const embroideredwrapper = document.querySelector('.embroideredinitials_wrapper'
 const embroideredinput = document.querySelector('#embroideredinitials');
 
 embroideredinput.addEventListener('input', ()=>{
-	if(embroideredinput.value.length == 2) {
+	if(embroideredinput.value.length == 3 || embroideredinput.value.length == 2) {
 	  document.querySelector('.ProductForm__AddToCart').removeAttribute("disabled");
   	  document.querySelector('.shopify-payment-button button').removeAttribute("disabled");
 	} else {

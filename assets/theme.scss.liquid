@@ -1999,6 +1999,11 @@ body {
   &[disabled] {
     cursor: not-allowed;
   }
+
+  &[disabled] > * 
+  {
+    pointer-events:none;
+  }
 }
 
 .Button--primary {
